@@ -33,3 +33,37 @@ comment: |-
 EdxoriKRk4Vrhla2lInJxB7imEJZ6izcydlr1uO_aCYqWitMTi37OqGhkj5Pi6ibcgkk_C7ZI3BKo-OY5pIvAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-04T19:58:50.197730800+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wsl_open_browser
+  version: 2021.823.702
+  revision: f72d86b8f7d49c19ff76fa4e9483fc1fe85097e4
+  digest: Q-zHFkiqtRM5vx1SpV6l72OaEUi7SUJuF_VEXMdSCxI
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  wsl_open_browser just opens the windows browser from inside WSL2.  
+  It transforms file path from Linux to Windows notation.  
+    
+  line of code:45 dependencies:1  
+  security: unsafe:0 FFI:0 asm!:0 file-read:0 file-write:0 no_mangle:0  
+  network-access:0 build.rs:0 macro_rules:0 proc_macro:0 process::command:1  
+  malicious potential:0%  
+  owners (in crates.io) reputation: LucianoBestia (me)  
+  used in your projects: use in `bash` and for `cargo doc --open`  
+  
+----- SIGN CREV PROOF -----
+A7LlfufHsq6rgmMUbhVwRsprBLStb1R6FdKNOdCEDBQPm-HhnEEkjg6spn_JPiP4FfDOFuzmbzrE1e_2BZ8oCQ
+----- END CREV PROOF -----
+
