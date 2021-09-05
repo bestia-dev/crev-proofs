@@ -101,3 +101,38 @@ comment: |-
 sFOvvp35aWlwIkeelECVcq3AJao7upPIXlacP82BwFULc9gFp3BWkgh6r6-0Mpc_FwAZVCQ1gPHAd0FRoXfXAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-05T12:24:49.077884600+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo_auto_lib
+  version: 0.7.19
+  revision: 92738b27a68848be244c8babe6935666c304b9b7
+  digest: M6JnNDAfNVjO_jPMCFoyL4QSv5dQ4GHNHqsa6YlsduY
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.
+  This library is used by `cargo-auto` to automate building tasks of rust projects.
+  
+  file-read/write: files inside the rust project: Cargo.toml, README.md, main.rs, lib.rs,... 
+  process::command: many cargo and bash commands
+  
+  unsafe:0 FFI:0 asm!:0 no_mangle:0 network-access:0 build.rs: macro_rules:0 proc_macro:0 
+  line of code:1001 dependencies:13 
+  malicious potential: 0%
+  owners (in crates.io) reputation: LucianoBestia (me)
+  used in my projects:  all rust projects for automation tasks
+  alternative crates I explored: make, cargo-make, cargo-task, runner,...
+----- SIGN CREV PROOF -----
+JsnKRWmGsaTe7Tyr5u5WgXXlfAUV0JB99_GjBpWN_jxgIo_puR9Zmz8J2SWMV_Sz7kxPszs9BozDLH-Ud28cBA
+----- END CREV PROOF -----
+
