@@ -272,3 +272,37 @@ comment: |-
 2LowN6ICJDHw53miwb43WKDR7FgT8rexFm9mjPxOpDHC1yf5u8xLWzEuk9RsP7U9G53CKIudR6oEw9Rh5Y1WBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-06T12:51:27.395650400+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wasm-bindgen-macro-support
+  version: 0.2.76
+  digest: ehOV0yYKDVAI4ZLih34QTIIJxsOXZobXt9RfTQSkBOI
+review:
+  thoroughness: low
+  understanding: low
+  rating: strong
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-macro-support is the absolute basic core crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review it.
+  
+  The crate comes from:
+  wasm-bindgen Developers,
+  Rust and WebAssembly Working Group,
+  rustwasm organization,
+  https://github.com/rustwasm
+  https://rustwasm.github.io
+----- SIGN CREV PROOF -----
+KgRYPtMrPj2-QEKWxYHJGk1nryxoCMxBX6p2JyoUdstRTjUcaYcO9k96uYMtDj0kWnhxVgqHRXf5s60BQ0YKDw
+----- END CREV PROOF -----
+
