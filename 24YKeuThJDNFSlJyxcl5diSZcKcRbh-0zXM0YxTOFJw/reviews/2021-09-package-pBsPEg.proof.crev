@@ -173,40 +173,6 @@ comment: |-
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-06T12:46:03.223728300+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: wasm-bindgen-test-macro
-  version: 0.3.26
-  digest: TOuhk6w9T5Jv6SAosiuOQ2i_6VgrmmoUd3kLKsDwLuM
-review:
-  thoroughness: high
-  understanding: high
-  rating: strong
-comment: |-
-  BASIC LIBRARY
-  
-  wasm-bindgen-test-macro is the absolute basic core crate for rust + wasm.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review it.
-  
-  The crate comes from:
-  wasm-bindgen Developers,
-  Rust and WebAssembly Working Group,
-  rustwasm organization,
-  https://github.com/rustwasm
-  https://rustwasm.github.io
------ SIGN CREV PROOF -----
-FtRT-J9VeTuX4gfU2qCmECVJJYElVJq_ZlSqHy_jMh_Zk_aOMpmMfUgn45RqLfZF2PrdpSjGWBi2YAYdY_2-BQ
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-06T12:47:05.946241500+02:00"
 from:
   id-type: crev
@@ -440,5 +406,39 @@ comment: |-
   https://rustwasm.github.io
 ----- SIGN CREV PROOF -----
 U5Wupxmhzbr7e3M7cAYN3npvsS0YsoI9_2ukIBfnNyd8RgM6_8Ln6LfeHY0O0HENsQbgjWu2oLW-pYHmB4fvBQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-08T15:08:25.593143600+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wasm-bindgen-test-macro
+  version: 0.3.26
+  digest: TOuhk6w9T5Jv6SAosiuOQ2i_6VgrmmoUd3kLKsDwLuM
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-test-macro is the absolute basic core crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review it.
+  
+  The crate comes from:
+  wasm-bindgen Developers,
+  Rust and WebAssembly Working Group,
+  rustwasm organization,
+  https://github.com/rustwasm
+  https://rustwasm.github.io
+----- SIGN CREV PROOF -----
+jljaUnK4ZcrvUGltC3hdlcbA0MBQ-ta-vok95LkuHtYMaiwVAD_vt6HAlKu28V7EoY-LvcaO9xYlbG44--buBA
 ----- END CREV PROOF -----
 
