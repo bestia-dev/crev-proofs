@@ -138,40 +138,6 @@ comment: |-
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-09T11:29:22.054430500+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: wasm-bindgen-futures
-  version: 0.4.26
-  digest: bDHL-ttv1j6LBrSypTAvtQmXO03T73I25o_IWIuWD2o
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  BASIC LIBRARY
-  
-  wasm-bindgen-futures is the absolute basic core crate for rust + wasm.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review it.
-  
-  The crate comes from:
-  wasm-bindgen Developers,
-  Rust and WebAssembly Working Group,
-  rustwasm organization,
-  https://github.com/rustwasm
-  https://rustwasm.github.io
------ SIGN CREV PROOF -----
-V_tLMwaGMaIr_sG9SJm8Gkw_D9T2zEJVcK2LABl18s2c7GCW1kfoj24oW7zJvXLbjQlne-04O-ytk6fUzxF2Dg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-09T12:04:23.534031800+02:00"
 from:
   id-type: crev
@@ -412,5 +378,35 @@ comment: |-
   Super high reputation and visibility in the rust community.
 ----- SIGN CREV PROOF -----
 fZUEl8gRnYK5fZZ7BevpSzQHKQSLjSHfDTecOM3yLP8FtBjY0JoYKYQ04t20g6gbp5AobWQ9fGS_B-8XqHDGBw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-09T12:12:54.383766300+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wasm-bindgen-futures
+  version: 0.4.26
+  digest: bDHL-ttv1j6LBrSypTAvtQmXO03T73I25o_IWIuWD2o
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-futures is the absolute basic core crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review it.
+  
+  Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
+  Super high reputation and visibility in the rust community.
+----- SIGN CREV PROOF -----
+44UjYZQdXg7UDarPyXpyhHVwm_3mZr6uRra_KAjTq0oynX_QIgdDv5PNJ47YjMxcYeW2bDa-qN9OQ4wGs-VaDA
 ----- END CREV PROOF -----
 
