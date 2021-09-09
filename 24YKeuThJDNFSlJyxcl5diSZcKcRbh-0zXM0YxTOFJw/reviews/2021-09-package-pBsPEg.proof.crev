@@ -375,7 +375,7 @@ noiV6JtA7fcBtzHzBGOSbOg8uTCSCSY5bu2nRDsDWc7U6UHqKEygf_8_QLYf2dY0ZxPvwGbJ_kXGqjvs
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-09T12:23:33.156874800+02:00"
+date: "2021-09-09T12:24:06.762712+02:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -399,12 +399,11 @@ comment: |-
   malicious potential:0%    
   process::command:1  
   line of code:45 dependencies:1  
-  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle,
-  network-access, build.rs, macro_rules, proc_macro
+  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, macro_rules, proc_macro
   
   owners (in crates.io) reputation: LucianoBestia (me)  
   used in projects: use in `bash` and for `cargo doc --open`  
 ----- SIGN CREV PROOF -----
-ABUl9xHCBQ_vdQgu91_fpKQvY4qQzKeGKPGzKl75kZrYsYBLY4dr1KgCe6dx_e85rCMvFcZoxzaKlGSp35KhAg
+CwOS4r0B81ts5dC-JCY3J8YehsxN0G_sGh1WdS6NONI7qPfY_wPP3yLT282rtT_O-df-X_v7u2Sa2mORaQC-BQ
 ----- END CREV PROOF -----
 
