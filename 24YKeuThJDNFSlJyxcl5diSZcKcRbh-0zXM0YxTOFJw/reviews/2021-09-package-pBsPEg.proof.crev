@@ -1,36 +1,6 @@
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-09T12:08:40.153587900+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: wasm-bindgen-test
-  version: 0.3.26
-  digest: ZoQq4VZqHWJy10g5Mq3RUyNZ9meYb2pW3MAJ8Gq4u9w
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  BASIC LIBRARY
-  
-  wasm-bindgen-test is the absolute basic core crate for rust + wasm.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review it.
-  
-  Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
-  Super high reputation and visibility in the rust community.
------ SIGN CREV PROOF -----
-pvtJas_yxRrthzK3w1TyZovYL84WiMn-QaDLPyrsh3sbvdium7dRC_uXRf3YUP6GkX6VFzsu6I0yNxlWATdWDg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-09T12:09:25.189427+02:00"
 from:
   id-type: crev
@@ -402,5 +372,35 @@ comment: |-
   alternative crates explored: cargo-make, cargo-task, cargo-xtask, make, bash scripts,...  
 ----- SIGN CREV PROOF -----
 rdV3yYaTFpR9ST7kIIpD46EaFJO_BpIlomdf0dxzDcI9XzrPpUPQpLvp2i3imBV_hssUbuOVz4fouch13OKaDw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-09T15:14:12.684393700+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wasm-bindgen-test
+  version: 0.3.26
+  digest: ZoQq4VZqHWJy10g5Mq3RUyNZ9meYb2pW3MAJ8Gq4u9w
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-test is the absolute basic core crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review it. xxx
+  
+  Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
+  Super high reputation and visibility in the rust community.
+----- SIGN CREV PROOF -----
+DeCz9NjALPrc0sWDnnnUqZ8SaOIvy4dE_E7GW5NNfW1eWsZjPOvrLibNF_ddIo1awul9I9L4XsNK9yFvsSTfBw
 ----- END CREV PROOF -----
 
