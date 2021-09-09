@@ -374,7 +374,7 @@ U6Kk5fvoQHmWJgUrz50JL7YOOQdxgUrotPiDEkSXxK4D0RN9rT42vWbelrFdwfU4YAXmwGT7nIsAHaJ_
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-09T12:25:13.302934800+02:00"
+date: "2021-09-09T12:25:39.172633300+02:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -390,8 +390,7 @@ review:
   rating: strong
 comment: |-
   Adds the trait `VerboseUnwrap` to `Result` and `Option`.  
-  Adds the macro `unwrap!` that writes the filename, line and column of the  
-  position in code where the panic happened. Very useful.  
+  Adds the macro `unwrap!` that writes the filename, line and column of the position in code where the panic happened. Very useful.  
   Because the original `unwrap()` in wasm returns totally unuseful location inside licore ?!?!: `panicked at... src/libcore/option.rs:378:21`.  
     
   malicious potential: 0%  
@@ -402,6 +401,6 @@ comment: |-
   used in projects: all my projects  
   alternative crates explored: original unwrap() and expect()
 ----- SIGN CREV PROOF -----
-TlHCkcr1FAZHp1QBp4SfjbWEQkDzbEbNvH436N_zIboDINQj1jTal6PzBuS7E8SVFqBm9LkvCUNsLbdW3birCw
+mtU0oW3YSVGBAbjPj0bDOIskvW3MZS80E5M8APbbiIOxdPnNTG13qGkvp-ZS1-gylU7mavBNNAfIUHdjPCs0Ag
 ----- END CREV PROOF -----
 
