@@ -813,7 +813,7 @@ IzSWGyqtrHBSMjTLYAD13jm54orYuK_udAeLT15FvZXeILQMqkPlwsNHbtxsXWfCaq7jLDHeqLmPCnOv
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T20:48:08.771426400+02:00"
+date: "2021-09-15T20:49:19.140759400+02:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -829,7 +829,9 @@ review:
   understanding: none
   rating: positive
 comment: |-
-  serde_yaml - serializer for yaml
+  BASIC LIBRARY
+  
+  serde - serializer framework
   I trust the authors.
   I didn't review the source code.
   
@@ -837,6 +839,6 @@ comment: |-
   Super high reputation and visibility in the rust community.
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
-Vpp67JDN3EKufWV-Wd34UcuSUURQNVob-grXffjWJlFT5JupF2G_7MTPTSKlpQaDNtdUDBprtr3Qh3Gth-pOAg
+RFEGHknjd7eFgvA7PfR7uV6g_9qlLJifXu59TvEz5kNQDpA2d56bETLgaf34nlY5K_VwmPD-CqTcULKzW0HxAQ
 ----- END CREV PROOF -----
 
