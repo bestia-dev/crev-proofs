@@ -842,3 +842,35 @@ comment: |-
 RFEGHknjd7eFgvA7PfR7uV6g_9qlLJifXu59TvEz5kNQDpA2d56bETLgaf34nlY5K_VwmPD-CqTcULKzW0HxAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:50:12.231287800+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: thiserror
+  version: 1.0.28
+  revision: b47c75d3f5fc3f9d4101feb1b1ab30dbcd543141
+  digest: AKLGjkaWtB9OR-nUozGj38ybR1fioVQx45KsTKJDOF8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  thiserror is a basic crate for error handling
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+K-lr9H0zHR0QTmDJRWbJZl7yhf21MrysRlDBMkG_Wo0MylxgE3KcvlKq8SkORffMhA25IMrfR18R8Iws2HFKBA
+----- END CREV PROOF -----
+
