@@ -510,37 +510,6 @@ comment: |-
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T20:23:50.890664700+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: wasm-bindgen-test-macro
-  version: 0.3.26
-  digest: TOuhk6w9T5Jv6SAosiuOQ2i_6VgrmmoUd3kLKsDwLuM
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  BASIC LIBRARY
-  
-  wasm-bindgen-test-macro is the absolute basic core crate for rust + wasm.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review the source code.
-  
-  Published to crates.io by: alexcrichton
-  Super high reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
------ SIGN CREV PROOF -----
-8wkL6IKiDYGLO-JCk_EdzggjlvxsukWd9ZysFPIaPEsT7zu0dkbEwK4eTEX_rwEHhX_lMU4eGnR3KrxhOaAiBg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-15T20:32:32.812257500+02:00"
 from:
   id-type: crev
@@ -630,5 +599,36 @@ comment: |-
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
 PXS2PaxfkQ68ElxBsV5P5QxupbTHfGYreUb_PlFo22ZgRiuD2PAJZni-egBNmE0y1o2hvF29vJmgXa42CV2JCg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:34:12.530307800+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wasm-bindgen-test-macro
+  version: 0.3.26
+  digest: TOuhk6w9T5Jv6SAosiuOQ2i_6VgrmmoUd3kLKsDwLuM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-test-macro is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+IFfc2y1J4b9gU6Oiq1QZlcwwb7iZHLLIOHRbtDUPVJF55Q50R2d4PV_bo-HiBFyUqQvvldqribg-tJ1LrZNiCw
 ----- END CREV PROOF -----
 
