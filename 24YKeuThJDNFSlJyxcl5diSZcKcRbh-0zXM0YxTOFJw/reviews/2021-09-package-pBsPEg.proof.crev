@@ -1208,3 +1208,33 @@ comment: |-
 o6jZmShyW0nifuRh5BClh48ubdfbHQfqANCvKABG4lhEptfygAOS5bZSZuBVTJrcwBoK5aDhcIznMlZb4F7aCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T21:15:17.640605300+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sha2
+  version: 0.9.5
+  revision: a877e611254c945fa03a1c84d61a34a3a9d3fc87
+  digest: lsH4x6wDTobwmGJxaNiJeU1q1vEBl7E2BPZuYs4jmW8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  sha2 is a crate for hash family
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+cvsq47hiOJnQ88tW5_92QUYisRfSrkfVI0NvCmoUmZsVX3rESndN3ybiUozuPuNeP_N8gjhm6GSRDn0seX2aCA
+----- END CREV PROOF -----
+
