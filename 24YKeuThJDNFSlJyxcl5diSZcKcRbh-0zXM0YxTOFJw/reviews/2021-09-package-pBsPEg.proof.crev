@@ -324,37 +324,6 @@ s0ipdurZK6jds3NDuyefXRal1KOTaoArbttLXZ3i4T-1R-ecb-nPfoumba0LmID_QcBcdA11ku8KWDfr
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T18:56:23.204121400+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: wasm-bindgen-macro
-  version: 0.2.76
-  digest: nnPllT4FD2oY_8OfZO-BiecnoyyThaGJfA5U_xz-SCw
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  BASIC LIBRARY
-  
-  wasm-bindgen-macro is the absolute basic core crate for rust + wasm.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review it.
-  
-  Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
-  Super high reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
------ SIGN CREV PROOF -----
-hnMfVl4ZHMzBTY1OEcRyxLdEMIpqeMJ4dfWxZN2NCyxyWBGfItNS0T856FDYqg4EexQty54UCGks5jazykpEDg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-15T19:32:42.620896+02:00"
 from:
   id-type: crev
@@ -475,5 +444,36 @@ comment: |-
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
 UR-C7DxITq0o7vmgHc8uAo2pq56o7qbGkq_2t30oxnlkm-NHV_8UeAuoXVPiy18ZgE1GYX48sHvAcA5qacOxCw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T19:34:18.671181500+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wasm-bindgen-macro
+  version: 0.2.76
+  digest: nnPllT4FD2oY_8OfZO-BiecnoyyThaGJfA5U_xz-SCw
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-macro is the absolute basic core crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+6yIUgeG9fYLorfHRoa0X4lr7pWduqDLXNL8XXciKMBiKeiqnfYHMY0SHlQ34lQC8h0f_BVQ1TxXoF1vlRIY1DQ
 ----- END CREV PROOF -----
 
