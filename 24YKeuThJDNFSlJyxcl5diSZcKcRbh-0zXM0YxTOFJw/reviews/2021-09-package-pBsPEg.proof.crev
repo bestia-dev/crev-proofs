@@ -968,3 +968,33 @@ comment: |-
 HGpo8TCpA4nFru3KgIViQxuKm9Q1xx9yZyb7QDj1C-Psr1SMPGA_bDuf3vkhRH4e3YHxYUSvMKlI9scfvczyCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:59:04.950990200+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: byteorder
+  version: 1.4.3
+  revision: abffade8232229db557e0a30c395963071624b2b
+  digest: nJzmpMwc692Mm7HE-uUTfpl49o76x02-2zDAfix1BNo
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  byteorder is a basic crate
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by:: BurntSushi
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Xe0zG6EJ8BLtU2F02fqCpNacLb1yjC_k6aahxGnr6LwcsYcjgl024besBeZFuXJOfNR7zK2ndOL9H3xZ_ytTDg
+----- END CREV PROOF -----
+
