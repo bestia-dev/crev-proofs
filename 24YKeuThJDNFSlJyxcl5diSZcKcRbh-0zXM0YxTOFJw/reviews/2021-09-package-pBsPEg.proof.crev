@@ -1028,3 +1028,33 @@ comment: |-
 j3IWpbA2TXVYg-WFzwCiLDJlmCUZ8oN-go0hZLjhOx4t_SEaiLCLQg3dF59IP-N-ILpCuBPG2c8S3CCszRy4Dg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T21:02:12.081198200+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: regex-automata
+  version: 0.1.10
+  revision: dd59a74be412e349bf6df528a216a13c2cf57262
+  digest: NwWVP1qo0SBNK7mX46y3UKOnRl1os2tAUkOPaxtA4Rg
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  regex-automata is a basic crate
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by:: BurntSushi
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+CRWIrVnGubKILHNy7NKOnvhMfhjhI25VGYwEvQrXD0tCF3G4QHQI1MC04dnGOOzr0Isck94Fi1khjp8mfGp0BA
+----- END CREV PROOF -----
+
