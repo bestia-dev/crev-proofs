@@ -448,38 +448,6 @@ comment: |-
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T19:35:02.382066100+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: anyhow
-  version: 1.0.44
-  revision: 6c97c59375b24dad08c624cf61d06338f4dc9c3e
-  digest: _NotOj2hAcKQwOuMw8ePVXC9s59gkI8U1uMgAHYJEkw
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  BASIC LIBRARY
-  
-  anyhow is a basic crate for rust error handling.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review the source code.
-  
-  Owners on crates.io: dtolney
-  Super high reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
------ SIGN CREV PROOF -----
-ljOG8CMNwfW41ICnpoqUDo9OlJQAoQlN82IYEyA6YuvIo-gUckf4qjwCNjo8bPbxAO88eo_Cue-aNmKDgYOYBQ
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-15T20:16:46.501620500+02:00"
 from:
   id-type: crev
@@ -570,5 +538,37 @@ comment: |-
   used in projects: cargo_crev_review, cargo_crev_web, mem6_game  
 ----- SIGN CREV PROOF -----
 mjXn7FpzGQtHRuIJu1L41_Bw3PfIxMXRumvxe2HLRSgMCMpsUkn0P_VXklm0ZeFkKU4dBj0ckFn6mSfImnzWCQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:17:48.282891200+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: anyhow
+  version: 1.0.44
+  revision: 6c97c59375b24dad08c624cf61d06338f4dc9c3e
+  digest: 5LE2qjIy456ojOeLt_FuOZUAZDpLbye9zPAzN2-Iri8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  anyhow is a basic crate for rust error handling.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+wp2ZLZechJDsNqVzxeN72sp_UYnKuXhNzVR1KsMFajUDojBDGb7Cv8NFL6joYEN3673MWcZFiz5DYG40oXo1Cg
 ----- END CREV PROOF -----
 
