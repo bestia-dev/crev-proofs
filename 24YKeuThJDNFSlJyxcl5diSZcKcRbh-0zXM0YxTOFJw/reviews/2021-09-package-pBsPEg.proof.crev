@@ -667,7 +667,7 @@ Lr3m_B_r62NP3JzaRJG0jBJFr-ofbKl2TBtMEY-FPcxNJnqccCMoOs0Odb10tV98VSOsn-RIzzO1NsO6
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T20:38:46.210664100+02:00"
+date: "2021-09-15T20:39:27.110582600+02:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -683,8 +683,6 @@ review:
   understanding: none
   rating: positive
 comment: |-
-  BASIC LIBRARY
-  
   crev-wot is the basic crate for cargo-crev.
   I trust the authors.
   I didn't review the source code.
@@ -693,6 +691,6 @@ comment: |-
   High reputation and visibility in the rust community.
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
-Wo2mcsHTmD6l_tQsqf-biL8AO-RlQp3mGGU7IFGd5GO6P4jKsRVvDebsjX2ZZcp3EZ3at3vUAn8NgvAj-ZvaBw
+w_3x89nFNrqipu-zZyXhhdGhRrJtz0ibNSvA-XcK3BSAJacMcYcxLecxlRmXWszLbwfWIHAAns0VuUwAeaP5AQ
 ----- END CREV PROOF -----
 
