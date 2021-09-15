@@ -500,3 +500,35 @@ comment: |-
 dYHXzvd1Ckcr7bQuSyWw0zlvR3p9J4SPgwaEGTYIycShTu1FCgYk1GatdR9QnU9dNdlRdwf5cGCKyQJK0ve2Aw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T16:55:44.711253900+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: anyhow
+  version: 1.0.28
+  revision: 022f700a1c67c5cd663c34b8a3c11c6818ec0ecb
+  digest: "-0mugVGPu_GpHdXJnJoyJxLOAaWnba-swukwiyvi8WU"
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  anyhow is a basic crate for rust error handling.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review it.
+  
+  Owners on crates.io: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+7wKvTxrQkxYC9t4OR6qo0zXUbVewBA3AbHs_Mk7OccZjWHD1LFmfNn6Btd5T7KlZm6vZzcSJRSPxb8O4CutRAg
+----- END CREV PROOF -----
+
