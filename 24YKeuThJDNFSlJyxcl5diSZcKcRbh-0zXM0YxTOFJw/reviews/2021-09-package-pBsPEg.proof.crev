@@ -449,7 +449,7 @@ BUTAmpcL-wB1XCMrffAAKpOBHEO-kZY2qTneSNzT8ljFj7HbRMoaHI-Qubjp2F2Yv9FZjojE6-QAQok8
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T18:56:44.581937600+02:00"
+date: "2021-09-15T19:32:42.620896+02:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -468,12 +468,12 @@ comment: |-
   
   wasm-bindgen-futures is the absolute basic core crate for rust + wasm.
   I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review it.
+  I didn't review the source code.
   
   Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
   Super high reputation and visibility in the rust community.
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
-2Trmo68xSOCFBMRa73FgPuhvCWwY60IZegXhLXemwLBgOkzgR60C_NPVYTdFlrS2MXaGwVkqg2FhfC1kSVbCDg
+V8NBi3bGldtJLWrt5YnuSyGWHA6aqy3OmF5TBgpLUmnveTqTBJmrUExsiIYcG0yWOn4_6MkjFk1sXE2cC9U6Cg
 ----- END CREV PROOF -----
 
