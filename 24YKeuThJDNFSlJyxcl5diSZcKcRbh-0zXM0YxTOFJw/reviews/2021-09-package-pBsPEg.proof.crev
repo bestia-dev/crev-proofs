@@ -1148,3 +1148,33 @@ comment: |-
 PxMaoMcPEyS70_jes7lxP4I4jL6P8xsQadeHskeINe1f5GgLfZeXnL1lJXb5oanLlMpOtAEXMC77pfC0Z8MRCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T21:12:19.881184+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tar
+  version: 0.4.37
+  revision: a746675cd2f2b40231cc251c5bf3b3f4d606bc48
+  digest: SPx1GmHiROYK1P0c_8lSoCHzIQ-dGMZcHtMWCcvZ0ss
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  tar is a crate for tar reader/writer
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+ZZ22WKLUQMxDOi7OVexMEEf8Y0kiEqXMzfqUgzh_dbqXGJ9FVcEt2rUbLavNpQvihCkGnVy76GwkP0zIcCfuDw
+----- END CREV PROOF -----
+
