@@ -810,3 +810,33 @@ comment: |-
 IzSWGyqtrHBSMjTLYAD13jm54orYuK_udAeLT15FvZXeILQMqkPlwsNHbtxsXWfCaq7jLDHeqLmPCnOvzyPlCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:48:08.771426400+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: serde_yaml
+  version: 0.8.20
+  revision: 269de16a5c77b21884ca0b79c628459c9c5c8040
+  digest: ZOHy-0mWR4LwDjzbtm-b_sKxCd0p3vfrthBPHX0kIVI
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  serde_yaml - serializer for yaml
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Vpp67JDN3EKufWV-Wd34UcuSUURQNVob-grXffjWJlFT5JupF2G_7MTPTSKlpQaDNtdUDBprtr3Qh3Gth-pOAg
+----- END CREV PROOF -----
+
