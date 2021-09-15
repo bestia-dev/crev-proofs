@@ -1298,3 +1298,33 @@ comment: |-
 FG_kqOSFytwIsU81cDXFOErnNIvLU1DF--8IThPp18BGBLPds-qauhGPxW4am_lVzHtsFW27li9tCAKV5WhJCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T21:18:52.280511200+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crev-common
+  version: 0.21.1
+  revision: 18150998e505802c384c8ab5a99b7b202f416434
+  digest: yj_8CtrXgYy2nhW_PxD3nefM5OhKJNdcH6xo1zOaocM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  crev-common for cargo-crev
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: kornel
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+tl-GmB9efvnPvowDrgxRW_p7Mbu2SR3AaO0wpc2MwXd9yCa_1TjXYHRIQeRSlUsXZon4XOHCTDJB_xvmCZuKBg
+----- END CREV PROOF -----
+
