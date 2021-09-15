@@ -1088,3 +1088,33 @@ comment: |-
 R8PaczcZ1H5suDxcJA927lhT4QdzENVqm8f1hh5qirKPk2MfPZ98Nk7RFV2EmMJ-E_Y_m9T3T-eoYjhMqfFQDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T21:09:18.580655700+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: digest
+  version: 0.9.0
+  revision: 783d06619cbdc83b8fb2b3be529b996600ffdd82
+  digest: ZCYjfS_OXwPAvOGimaUR0lsFgu_OzW4Iij0NWpvDG-w
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  digest is a basic crate
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+EucjHXQ7_TmzdeZ384okcC-enlU01mccG_7il_89dFLxDDyDZrNhirlcOQUR6bpgR9OIHagivutwE8_lMHb2Cw
+----- END CREV PROOF -----
+
