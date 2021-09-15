@@ -231,37 +231,6 @@ FWU7h6BwFgvgfG3iMZzkrILrSe-Ch6P7b7LwdQ5rYfiaSAuIOQGSFM3amurBDrhDnGBSBDPZs-T7SXnB
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T18:55:58.295163800+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: web-sys
-  version: 0.3.53
-  digest: hACRtSs-iOy1yJga7SjtdZXlq8151hxAoxL-BUK0MTU
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  BASIC LIBRARY
-  
-  web-sys is the absolute basic core crate for rust + wasm.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review it.
-  
-  Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
-  Super high reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
------ SIGN CREV PROOF -----
-M7-kVZ5Zg-Fngwq_MDqVqfT2IzQDSIP-9iV82q5JFnlTojvadLx8Wr6Xp1Ldvqm5sLaedMBkZwnyHOzARiZKCQ
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-15T19:32:42.620896+02:00"
 from:
   id-type: crev
@@ -475,5 +444,36 @@ comment: |-
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
 9RCrlbAaZwLzI-IuNXjemwtZasO_wFW_01cdj97CdXTU29ZDy2Jkso5JeEYg0IGZRtAg2g0I8zUJY3H7VAoWCQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T19:34:40.284843100+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: web-sys
+  version: 0.3.53
+  digest: hACRtSs-iOy1yJga7SjtdZXlq8151hxAoxL-BUK0MTU
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  web-sys is the absolute basic core crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+sMie9YT2VcJMi6fHKphnKJvqwHD--YA9wjcfI70MDfQfD-PwelFNg6KocVrCyqdC2d9--QqD9WhyhcuNWnOxDw
 ----- END CREV PROOF -----
 
