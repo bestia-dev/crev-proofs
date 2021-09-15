@@ -512,38 +512,6 @@ comment: |-
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T20:00:19.520951700+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: memchr
-  version: 2.4.1
-  revision: 8e1da98fee06d66c13e66c330e3a3dd6ccf0e3a0
-  digest: D7bhKUg-pwZB4ayc0XB25UTc298VeGCiyuq7yo2kzRc
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  BASIC LIBRARY
-  
-  memchr is a basic crate for string search.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review the source code.
-  
-  Owners on crates.io: BurntSushi
-  Super high reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
------ SIGN CREV PROOF -----
-uP204Z48E_CZTt_BLxwvP07JSJ7SX_-pS2ce4SNmyU3ygl-GTVbiMHhjGOh8gmieG4gKSlK4v_vivEaaUAFtAQ
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-15T20:16:46.501620500+02:00"
 from:
   id-type: crev
@@ -571,5 +539,37 @@ comment: |-
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
 YLhYgW_N-8gbLiiPGXSFvEq5d8WdE8xFN3JRrTZWyBNrbkXKG5kD1cGFJ8gaIJHaaIiYPW3yOH7Fg-3_3_4UCw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:16:58.221336400+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: memchr
+  version: 2.4.1
+  revision: 8e1da98fee06d66c13e66c330e3a3dd6ccf0e3a0
+  digest: D7bhKUg-pwZB4ayc0XB25UTc298VeGCiyuq7yo2kzRc
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  memchr is a basic crate for string search.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by:: BurntSushi
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+OnRECyfhLUss7UAQdxX0C2LpgiX66kyzhrfWyHwIH7uslITSvwpef9YyN2ARvLG3_KfpgOOHJ5D4h2RqK04ECg
 ----- END CREV PROOF -----
 
