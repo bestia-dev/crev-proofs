@@ -1,41 +1,6 @@
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-09T12:29:34.274005200+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: cargo-auto
-  version: 2021.827.848
-  revision: 0914904a54b6bb0da0bbc621a23ca92914b2c16d
-  digest: 7Bc7M4nZMgLl8sbWFBWTlCX_tTX671X3QFo9ZhgdXws
-review:
-  thoroughness: high
-  understanding: high
-  rating: strong
-comment: |-
-  I am the author of this crate.  
-  `Cargo auto` subcommand manages the automation_tasks_rs sub-project.  
-  It generates, builds and runs automation_tasks_rs.  
-    
-  malicious potential: 0%  
-  process::command:4 (cargo and automation_tasks_rs)  
-  file-read/write: only the `automation_tasks_rs` directory
-  line of code:210 dependencies:6  
-  NONE: unsafe, FFI, asm!, no_mangle, network-access, build.rs, macro_rules, proc_macro  
-  owners (in crates.io) reputation: LucianoBestia (me)  
-  used in projects: every rust project automation  
-  alternative crates explored: cargo-make, cargo-task, cargo-xtask, make, bash scripts,...  
------ SIGN CREV PROOF -----
-rdV3yYaTFpR9ST7kIIpD46EaFJO_BpIlomdf0dxzDcI9XzrPpUPQpLvp2i3imBV_hssUbuOVz4fouch13OKaDw
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-15T19:32:42.620896+02:00"
 from:
   id-type: crev
@@ -568,5 +533,39 @@ comment: |-
   alternative crates explored: make, cargo-make, cargo-task, runner,...
 ----- SIGN CREV PROOF -----
 DIcTTjxB7mZobEVVhl-zktjd_Pk4OUtsAOrNktXmXw36UZy1DLX7AyqSx5a3CDOTlbPPZAedVdlyvGOSL75GBw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:19:45.428804+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo-auto
+  version: 2021.827.848
+  revision: 0914904a54b6bb0da0bbc621a23ca92914b2c16d
+  digest: 7Bc7M4nZMgLl8sbWFBWTlCX_tTX671X3QFo9ZhgdXws
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  `Cargo auto` subcommand manages the automation_tasks_rs sub-project.  
+  It generates, builds and runs automation_tasks_rs.  
+    
+  malicious potential: 0%  
+  process::command:4 (cargo and automation_tasks_rs)  
+  file-read/write: only the `automation_tasks_rs` directory
+  line of code:210 dependencies:6  
+  NONE: unsafe, FFI, asm!, no_mangle, network-access, build.rs, macro_rules, proc_macro   
+  used in projects: every rust project automation  
+  alternative crates explored: cargo-make, cargo-task, cargo-xtask, make, bash scripts,...  
+----- SIGN CREV PROOF -----
+BPdodqO6tTpkWeUS64Pb1Nxi51aNDmrYmctkZaFOdcwtsVtVc_c48359r9W-UagiEey3Ub_G7r849Lkg9rmoAg
 ----- END CREV PROOF -----
 
