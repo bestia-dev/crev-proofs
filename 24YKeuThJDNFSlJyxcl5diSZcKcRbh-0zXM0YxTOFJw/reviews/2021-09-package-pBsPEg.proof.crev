@@ -1328,3 +1328,33 @@ comment: |-
 tl-GmB9efvnPvowDrgxRW_p7Mbu2SR3AaO0wpc2MwXd9yCa_1TjXYHRIQeRSlUsXZon4XOHCTDJB_xvmCZuKBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T21:20:01.961363300+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: curl
+  version: 0.4.38
+  revision: 8ccc410aa10852a093a1cef7a74fab1ab9a28ad2
+  digest: NsPLjKq0EtzcuDEZWK-ZCquR-pBI2OK5g9ndj4NjFzM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  curl - libcurl bindings
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+jZwcMYhH9oewcRfp4wLueeeMmCI6ACARl36AHGg-mQsNWIshFiQ6_tONgp7n4RYDZx9OKkgCbkRfCeTNR6FUBg
+----- END CREV PROOF -----
+
