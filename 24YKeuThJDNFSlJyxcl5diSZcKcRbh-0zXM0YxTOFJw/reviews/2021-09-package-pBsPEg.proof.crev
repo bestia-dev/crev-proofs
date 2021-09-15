@@ -1,40 +1,6 @@
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-09T12:27:17.530216400+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: cargo_auto_lib
-  version: 0.7.19
-  revision: 92738b27a68848be244c8babe6935666c304b9b7
-  digest: M6JnNDAfNVjO_jPMCFoyL4QSv5dQ4GHNHqsa6YlsduY
-review:
-  thoroughness: high
-  understanding: high
-  rating: strong
-comment: |-
-  I am the author of this crate.
-  This library is used by `cargo-auto` to automate building tasks of rust projects.
-  
-  malicious potential: 0%
-  file-read/write: files inside the rust project: Cargo.toml, README.md, main.rs, lib.rs,... 
-  process::command: many cargo and bash commands
-  line of code:1001 dependencies:13 
-  NONE: unsafe, FFI, asm!, no_mangle, network-access, build.rs, macro_rules, proc_macro
-  owners (in crates.io) reputation: LucianoBestia (me)
-  used in projects:  all rust projects for automation tasks
-  alternative crates explored: make, cargo-make, cargo-task, runner,...
------ SIGN CREV PROOF -----
-P2Z2HtKqeAeSqRnSpryj9pBay7kH8jfZ4CkgviPPfXoSxdWsEQXeOajffNP48HDM0SLIvH7EzPVLHm6fOdvJAg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-09T12:29:34.274005200+02:00"
 from:
   id-type: crev
@@ -569,5 +535,38 @@ comment: |-
   alternative crates explored: original unwrap() and expect()
 ----- SIGN CREV PROOF -----
 hZyGcuMxacd5MmH-l0gpzxF0lySFnTzTxiJ2sX0gT0gZTqwGqgjARrfrcPEkO_wGuAJHccXupKvFOEpNlwyIDw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:19:35.588336700+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo_auto_lib
+  version: 0.7.19
+  revision: 92738b27a68848be244c8babe6935666c304b9b7
+  digest: UaLaVeN5Xoq6XctMAy6wSlpWEt4KLqFPCzQBvy7J6sA
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.
+  This library is used by `cargo-auto` to automate building tasks of rust projects.
+  
+  malicious potential: 0%
+  file-read/write: files inside the rust project: Cargo.toml, README.md, main.rs, lib.rs,... 
+  process::command: many cargo and bash commands
+  line of code:1001 dependencies:13 
+  NONE: unsafe, FFI, asm!, no_mangle, network-access, build.rs, macro_rules, proc_macro
+  used in projects:  all rust projects for automation tasks
+  alternative crates explored: make, cargo-make, cargo-task, runner,...
+----- SIGN CREV PROOF -----
+DIcTTjxB7mZobEVVhl-zktjd_Pk4OUtsAOrNktXmXw36UZy1DLX7AyqSx5a3CDOTlbPPZAedVdlyvGOSL75GBw
 ----- END CREV PROOF -----
 
