@@ -1,37 +1,6 @@
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-15T19:32:42.620896+02:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: wasm-bindgen-futures
-  version: 0.4.26
-  digest: bDHL-ttv1j6LBrSypTAvtQmXO03T73I25o_IWIuWD2o
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  BASIC LIBRARY
-  
-  wasm-bindgen-futures is the absolute basic core crate for rust + wasm.
-  I trust it just like I trust the Rust standard library or the rust compiler.
-  I didn't review the source code.
-  
-  Owners on crates.io: rustwasm:core, alexcrichton, fitzgen.
-  Super high reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
------ SIGN CREV PROOF -----
-V8NBi3bGldtJLWrt5YnuSyGWHA6aqy3OmF5TBgpLUmnveTqTBJmrUExsiIYcG0yWOn4_6MkjFk1sXE2cC9U6Cg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-09-15T19:33:03.007359600+02:00"
 from:
   id-type: crev
@@ -567,5 +536,36 @@ comment: |-
   alternative crates explored: cargo-make, cargo-task, cargo-xtask, make, bash scripts,...  
 ----- SIGN CREV PROOF -----
 BPdodqO6tTpkWeUS64Pb1Nxi51aNDmrYmctkZaFOdcwtsVtVc_c48359r9W-UagiEey3Ub_G7r849Lkg9rmoAg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T20:20:13.120780700+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wasm-bindgen-futures
+  version: 0.4.26
+  digest: bDHL-ttv1j6LBrSypTAvtQmXO03T73I25o_IWIuWD2o
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-futures is the absolute basic core crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+fzlI4jNFMww3_F7YqcLoCy6t8jkXqchAjCvOklkO1kYbBniwV8uMTcO0ZH0PN9Q0nMiBovF6JaU2FZe2NmtGAw
 ----- END CREV PROOF -----
 
