@@ -2344,3 +2344,34 @@ comment: |-
 rkfgPm6jMH9DNiK9aa_Q_602a-N6rEpYFjtxKh_irkFvOewnSTn6FFvfbpMbcY_cPM7cIyHAs0mTtbCztC8NCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-16T13:04:38.252089400+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: serde
+  version: 1.0.130
+  revision: 65e1a50749938612cfbdb69b57fc4cf249f87149
+  digest: ZnEg58KJqoOtb6Y5SjwXfJcDngF6qxhxkjOz7fxA7YA
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  framework for serializing and deserializing
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+rHpU4vgf5e8TBp_CbVze-4oB6VTcNeJWqAOH_UiS0PzEoaC4eYY1eeM9tCSMNYjcWjbiClJBfxt3QRcZHaElCg
+----- END CREV PROOF -----
+
