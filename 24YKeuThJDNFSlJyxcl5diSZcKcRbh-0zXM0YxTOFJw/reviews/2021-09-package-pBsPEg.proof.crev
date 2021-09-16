@@ -2639,3 +2639,32 @@ comment: |-
 9XYSiax6EdD-yUk0N2fg2POxyE0fdNVjJO0f_09m3gZ_JDO9PIrwkJgswYkPiqkzulpTf_Re7Wq0hrSFnfSkBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-16T13:27:06.059660800+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: syn
+  version: 0.15.44
+  revision: 6d798b63c255e90b7b1dbbfb3707fdce1704a18d
+  digest: WofgKU3hraaolxwNW-nXokUvMP93ZkBZf8GoCWHNo4o
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  Parser for Rust source code
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+uF--Wb91y1xrQqUQV9me-f0-nxFoyLEjUf8kAG35C3TYb8bfnjWuTJc0ScdCWfyCdnHVg-RlKOA_QSo8S-gXDQ
+----- END CREV PROOF -----
+
