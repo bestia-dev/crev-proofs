@@ -2518,3 +2518,34 @@ comment: |-
 TvLUMSZ35NI5UyAY0N0rlssYavnoENoXm6N__ufnN-HG7-kOSAQGctObtTejAsNUl0zEA-9A8JPg3bu065CSAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-16T13:14:16.620132700+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: unicode-width
+  version: 0.1.8
+  revision: d0aa541144151c09268878dd781f06011498389a
+  digest: mIsmTMQ39Qb4PNIB1xLEHkf6nUm0F7Ze3MwNI9uxh8I
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  Determine displayed width of char and str types 
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: Manishearth
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+lZE4f2Xf8UrWaU7Y5LtfcIYboCGayCq0Gsw7b7Z3ra_hot5OsXtWP4DEEZeR1zbWrkXFeovNGErgnou4adhACg
+----- END CREV PROOF -----
+
