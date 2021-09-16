@@ -1421,7 +1421,7 @@ wb6lxRd9jEWV7q3k14QsIDQP2BwPo1QENinWCgqfQblZ-w_jQUE8gtMacdR8X4lLYs4t6fXa4iN649Zx
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-16T11:51:35.322696600+02:00"
+date: "2021-09-16T11:52:15.149657800+02:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -1442,10 +1442,10 @@ comment: |-
   I trust it.
     
   malicious potential: 0%  
-  line of code:158 dependencies:0
+  dependencies:0
   NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command, macro_rules  
   published to crates.io by: softprops (unknown to me)  
 ----- SIGN CREV PROOF -----
-jovlh9f10vN_O8Pm0PaKnXeJf3-pHUm0Ia9OkEkJAwQKDXiVNWw31zQJJsMEJvBSMvInJUpCabtNn8dUMlPHDA
+_PLX8SrlfUYh-VaZx631FjV_ThuXh1pGkWJkPIannTomM83N23LxC--dnxtBIzpWefBzDsSa1ChrYW9b0aLJCQ
 ----- END CREV PROOF -----
 
