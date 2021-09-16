@@ -1951,3 +1951,34 @@ comment: |-
 6EZ08bu1FSF_S6A1aGevx0SuPY-YL09XSv0h0VTzNuCScKKwyyj-VlJIbZYdOZvLRPbe7SwoeP2b-cyNZfQqDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-16T12:38:01.765940700+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: console_error_panic_hook
+  version: 0.1.6
+  revision: 52f6501678e8cc4fcf5309e7814bb90f800c3fef
+  digest: DLet7EtUZ6IpD5zg-uAv6bk7Yszo1MDc02PdFW6Qpjs
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  Lets you debug panics in wasm.
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+XJEDmHYx5oRTIz4RGHAKb_O0Yp1DAuyThkFIMnQ3PNvTHf3jufmAzBfv-Gx09vQcy-mCCkEMY2KDxypD2K68AQ
+----- END CREV PROOF -----
+
