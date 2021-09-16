@@ -1421,7 +1421,7 @@ wb6lxRd9jEWV7q3k14QsIDQP2BwPo1QENinWCgqfQblZ-w_jQUE8gtMacdR8X4lLYs4t6fXa4iN649Zx
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-09-16T11:52:15.149657800+02:00"
+date: "2021-09-16T11:58:36.671206100+02:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -1431,21 +1431,22 @@ package:
   name: atty
   version: 0.2.14
   revision: 7b5df17888997d57c2c1c8f91da1db5691f49953
-  digest: BjjJjTOheT6T0JrSpFl74tYeggsgsUReY68jDyqAogg
+  digest: cMtYTesN-WfgCaynky4qTOwD2OyZDjvPN5Ez1aHJCUE
 review:
   thoroughness: medium
   understanding: medium
   rating: strong
 comment: |-
   atty is a micro-crate with little code and no dependency.
-  The code looks fine to me.
+  The code looks fine to me. Complicated just because of multi-platform support.
   I trust it.
     
   malicious potential: 0%  
-  dependencies:0
-  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command, macro_rules  
+  dependencies:libc, winapi, hermit-abi
+  unsafe:6 (because working with low level system calls)
+  NONE: FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command, macro_rules  
   published to crates.io by: softprops (unknown to me)  
 ----- SIGN CREV PROOF -----
-_PLX8SrlfUYh-VaZx631FjV_ThuXh1pGkWJkPIannTomM83N23LxC--dnxtBIzpWefBzDsSa1ChrYW9b0aLJCQ
+oQltGaAUirZ9pDAccGEBbK-m3tjdIRLOGYVDtevjnZe3kyLHtI0o32TFW0XxK43pQmuI8UQfWA72o7DUumYDAw
 ----- END CREV PROOF -----
 
