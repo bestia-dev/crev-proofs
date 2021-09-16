@@ -2609,3 +2609,33 @@ comment: |-
 FqXyuGFm3BFuIfuMEjxz6g5ZGGsYa7fxOEC_A0Zk-vDn9gMrmZT-PAV7YZAcJQEQwS-WxzIwEXOZ6IyX_PVOAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-16T13:24:24.218677400+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rand
+  version: 0.7.3
+  revision: 074cb6a997f91db653f8a53c755ddc07495ab429
+  digest: rsGeTtFO3IptMKaG37zUtM58I-jGgGPFlu7wovzycfg
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  rand is de facto the basic crate for random
+  I didn't review the source code. 
+  It has 235 contributors.
+  
+  Published to crates.io by: dhardy
+----- SIGN CREV PROOF -----
+9XYSiax6EdD-yUk0N2fg2POxyE0fdNVjJO0f_09m3gZ_JDO9PIrwkJgswYkPiqkzulpTf_Re7Wq0hrSFnfSkBg
+----- END CREV PROOF -----
+
