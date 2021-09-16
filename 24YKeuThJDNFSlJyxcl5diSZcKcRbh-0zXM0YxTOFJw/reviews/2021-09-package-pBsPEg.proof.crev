@@ -2435,3 +2435,32 @@ comment: |-
 3JlmXAAXbWBbceGDXIPRvvcQPi4cDe-aQRR7lzAjWyh9oAwPHvepEWS1fy7lGhvRa46pNW0nx857cilFMvaEBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-16T13:08:38.280463600+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: itoa
+  version: 0.4.8
+  revision: de247d6ac25d2e62d4cbd195f064ed4af35fd4eb
+  digest: Mzjrvh4uLraKtOqArL1sKXsnJBqS3645ekpfJPF5FoQ
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  for printing integer primitives
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+uGVIhad-vFszQwfxAZ7q6NG0PbSaF1dUOkaRydUybicrJCrRyaOsq8ss6dsC8dprQ8xPbFvU97BvmQkYWDxfBw
+----- END CREV PROOF -----
+
