@@ -1765,3 +1765,34 @@ comment: |-
 bhxv0HN9_PUuDBsVvt6mpiml29cb1n6Ci3m6chIGtBsrvCBd25c_MK8Ec7mxnpoGc695TGvmhfj3gEjV5MXYDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-16T12:17:47.439779100+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: glob
+  version: 0.3.0
+  revision: b003dc3218b006f4e9eb7cff6e63e9087706615e
+  digest: kCdvZdr1m10nMzO_kTyGrtOFLceSGg8HZYTeb7Te6GI
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  glob is part of the rust-lang-nursery project. https://github.com/rust-lang-nursery
+  These are candidates for the rust "standard library".
+  I trust the nursery. I didn't review the source code.
+  
+  
+  Published to crates.io by: KodrAus
+----- SIGN CREV PROOF -----
+eGn38oLthDRsKHLpVWZ0Ls-O-AeuJuwPrgI36ZLB0wnEa17EJqe6oWnSevjSrpLVPJK0-zbvHV4W1ad-MzDvBA
+----- END CREV PROOF -----
+
