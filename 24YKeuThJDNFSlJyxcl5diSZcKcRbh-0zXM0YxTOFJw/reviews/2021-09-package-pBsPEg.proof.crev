@@ -1921,3 +1921,33 @@ comment: |-
 mFYSqQMnRgFxqnE1fvLTavDWDnK6tQIB1YN6XltT4V5bxEB0z5T0ikYACv1EV_5QrBgI5siu0GXd-uehyccfDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-16T12:35:05.897506500+02:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: qrcode53bytes
+  version: 1.1.0
+  revision: 2118dcf9a7e628bfc667950e280fd731b911982f
+  digest: i26GzjhUUZCWjcIw7rgX254c5R9MXD_oHnKVurb1atI
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  Works in wasm, so that should be a safe sand-boxed environment.
+  I trust it.
+  
+  malicious potential: 0%
+  dependencies: 2 
+  NONE: unsafe, FFI, asm!, file read/write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+----- SIGN CREV PROOF -----
+6EZ08bu1FSF_S6A1aGevx0SuPY-YL09XSv0h0VTzNuCScKKwyyj-VlJIbZYdOZvLRPbe7SwoeP2b-cyNZfQqDQ
+----- END CREV PROOF -----
+
