@@ -33,7 +33,7 @@ HGSl2-ICgmK-MdbHlY1QYji16HeJlMkfwwzwFI1RK-rhAdMMuKYJGqj-roU7criku5do2mDMdr-gjjBO
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-11-20T10:50:40.491083600+01:00"
+date: "2021-11-20T10:50:54.560185+01:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -45,8 +45,8 @@ package:
   revision: 114437e178739d4c4c195b551524bd560f54fc34
   digest: G3QqidmuKwUlCLfaSSLmmu6s87NpCZGsy6kiwNCWvtw
 review:
-  thoroughness: high
-  understanding: high
+  thoroughness: none
+  understanding: none
   rating: strong
 comment: |-
   A library to compile C/C++/assembly into a Rust library/application.
@@ -58,6 +58,6 @@ comment: |-
   Super high reputation and visibility in the rust community.
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
-AlUrsfqc6WK4OzUIAaY1sD9t2Sf4ScQOnL6M5pBld28MHooueOGjKG9taUZDh74G1t0JKUanmzPUSyOll6rzCQ
+rmetMpe3-clJ_o4nqZIXy865hRU5CGqoZdTkBk0cGr9Zauk0MDQp2aOtZ7_TXFxJW5Zmn6GaIFCptpQuHeBgAQ
 ----- END CREV PROOF -----
 
