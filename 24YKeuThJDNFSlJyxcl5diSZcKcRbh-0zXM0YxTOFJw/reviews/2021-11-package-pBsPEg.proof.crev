@@ -1,38 +1,6 @@
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-11-19T17:59:13.948005500+01:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: atty
-  version: 0.2.14
-  revision: 7b5df17888997d57c2c1c8f91da1db5691f49953
-  digest: cMtYTesN-WfgCaynky4qTOwD2OyZDjvPN5Ez1aHJCUE
-review:
-  thoroughness: high
-  understanding: high
-  rating: strong
-comment: |-
-  atty is a micro-crate with little code and no dependency.
-  The code looks fine to me. Complicated just because of multi-platform support.
-  I trust it.
-    
-  malicious potential: 0%  
-  dependencies:libc, winapi, hermit-abi
-  unsafe:6 (because working with low level system calls)
-  NONE: FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command, macro_rules  
-  published to crates.io by: softprops (unknown to me)  
------ SIGN CREV PROOF -----
-HGSl2-ICgmK-MdbHlY1QYji16HeJlMkfwwzwFI1RK-rhAdMMuKYJGqj-roU7criku5do2mDMdr-gjjBOMfDOBw
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-11-20T10:51:16.729253400+01:00"
 from:
   id-type: crev
@@ -1049,5 +1017,37 @@ comment: |-
   published to crates.io by: softprops (unknown to me)  
 ----- SIGN CREV PROOF -----
 LcsayMx2pvZqq6gE_Nd_oOVEhHlybeFCPYaNjtd6OftQXf_z2I-ur7RRCJkEE0OVx88vycSzMoKUr2rpwILEDg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T15:29:33.331263900+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: atty
+  version: 0.2.14
+  revision: 7b5df17888997d57c2c1c8f91da1db5691f49953
+  digest: 43bdBdz29rGPtdjhLdE0zA-ZudRkwB1ISyTTj0vft-I
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  atty is a micro-crate with little code and no dependency.
+  The code looks fine to me. Complicated just because of multi-platform support.
+  I trust it.
+    
+  malicious potential: 0%  
+  dependencies:libc, winapi, hermit-abi
+  unsafe:6 (because working with low level system calls)
+  NONE: FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command, macro_rules  
+  published to crates.io by: softprops (unknown to me)  
+----- SIGN CREV PROOF -----
+q8ws7rdIa2LzNich7uvA5bZeNGow_n8J_xEUUPWfeLKavqk20prlestxQPqkS-5XhLnPsHo7OvTaKmA3USbjAw
 ----- END CREV PROOF -----
 
