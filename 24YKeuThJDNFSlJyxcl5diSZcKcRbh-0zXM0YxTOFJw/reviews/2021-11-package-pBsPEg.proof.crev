@@ -2676,3 +2676,32 @@ comment: |-
 MniUxEN-ZCpzW7JH_K_M4Qb15RY4FKWxd6CYLyFlxzeEqq-tRkpBj9A2n95naj20RA1xLLl3MW2alg5wsIpzBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T16:06:13.235348400+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crev-wot
+  version: 0.18.1
+  revision: 96e9065c94911c89b770f7f46753193f733ea1ab
+  digest: UqlpRWYVKrNBLIiVB6DvKXUeMMACaPP7D4uxYFeGTi0
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  crev-wot is the basic crate for cargo-crev.
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: kornelski
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Ho03wnOOe_dvAKg-45pvIF-Y7B83PGsAUGs1Co8cWCaxXPuZmU8EEHVEbxLez5pkHmBsBkOb56qnWYoKsODxBg
+----- END CREV PROOF -----
+
