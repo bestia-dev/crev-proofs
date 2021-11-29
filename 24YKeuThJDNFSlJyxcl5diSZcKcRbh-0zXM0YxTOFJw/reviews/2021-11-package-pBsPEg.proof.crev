@@ -4535,3 +4535,32 @@ comment: |-
 Dw9rqt04cvelfhkfPiOuGbYbCS2NwIEdScVXjG2PSepoSH4QJ4CG8-Sw4eirXhowCtdDrrZoa38rnTh2d52DCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T16:32:40.280320900+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: proc-macro2
+  version: 1.0.29
+  revision: 4fc89676e7bdef2ba68e8a1383d07df0bb7bbeb0
+  digest: hOB9XjJ08JjDBYtUPGBQwCXxzofEwilhjh35B5IzkKc
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  A wrapper around proc_macro.
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolnay
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+6sTaHjYSy5bXLwn5j7NScaZ9Wyd5sXdJYfB9XcUgWVdyPLhdrPdCSL6XZEdd3oKOLB2osoSWgkfcXRWmwS4mCw
+----- END CREV PROOF -----
+
