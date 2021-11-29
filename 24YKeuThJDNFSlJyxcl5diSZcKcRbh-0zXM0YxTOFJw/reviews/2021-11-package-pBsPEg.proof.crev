@@ -2705,3 +2705,32 @@ comment: |-
 Ho03wnOOe_dvAKg-45pvIF-Y7B83PGsAUGs1Co8cWCaxXPuZmU8EEHVEbxLez5pkHmBsBkOb56qnWYoKsODxBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T16:08:16.332689400+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: digest
+  version: 0.9.0
+  revision: 783d06619cbdc83b8fb2b3be529b996600ffdd82
+  digest: ZCYjfS_OXwPAvOGimaUR0lsFgu_OzW4Iij0NWpvDG-w
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  digest describes functionality of cryptographic hash functions
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+kyCe2HcpOHh07veyXv8qPEax_IfG9tnYXKZTY-tpLnQwpY2ophnqFX670Dfx6GphiFdBHJhvcLKLsO7LSH7ADQ
+----- END CREV PROOF -----
+
