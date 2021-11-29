@@ -693,7 +693,7 @@ comment: |-
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-11-29T15:06:02.486819600+01:00"
+date: "2021-11-29T15:06:09.090517+01:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -717,6 +717,6 @@ comment: |-
   High reputation and visibility in the rust community.
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
-Qgt2Qs7Z3d0OaUhrWYbFSpEaOUfQZF9u1S8ZT3E43XgPtcAwP86p5uloL2ma8Epi_qRt2xGIt5cVdzA_WHo6DA
+y3y92hApndkgS42zcyzftBYPBtKfKuIJjmjJ9QgAOJbklAagPhkyMOhkKxF4RN9JwfMsLhnYRmDZOVfqly1bCA
 ----- END CREV PROOF -----
 
