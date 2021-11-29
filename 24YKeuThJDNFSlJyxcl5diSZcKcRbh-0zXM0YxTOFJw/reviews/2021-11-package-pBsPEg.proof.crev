@@ -1023,7 +1023,7 @@ bcIzvk7aX1TdQRNaoGbMAQs7hhU3W31vdepvSIQHk0CprAip08-0H0jE5gAlCsfjLysQ2zxPTuvbUB8N
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-11-29T15:29:10.440272+01:00"
+date: "2021-11-29T15:29:23.271426200+01:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -1036,7 +1036,7 @@ package:
 review:
   thoroughness: high
   understanding: high
-  rating: strong
+  rating: positive
 comment: |-
   atty is a micro-crate with little code and no dependency.
   The code looks fine to me. Complicated just because of multi-platform support.
@@ -1048,6 +1048,6 @@ comment: |-
   NONE: FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command, macro_rules  
   published to crates.io by: softprops (unknown to me)  
 ----- SIGN CREV PROOF -----
-cOzSwjGFNM91T0AjOXq2eWq1KSt0uunn4oRvFrc-qPTGAeugJ_sdz-JxEuDD5MKrJF2LXgXNE-vVEPBpwjJpDQ
+LcsayMx2pvZqq6gE_Nd_oOVEhHlybeFCPYaNjtd6OftQXf_z2I-ur7RRCJkEE0OVx88vycSzMoKUr2rpwILEDg
 ----- END CREV PROOF -----
 
