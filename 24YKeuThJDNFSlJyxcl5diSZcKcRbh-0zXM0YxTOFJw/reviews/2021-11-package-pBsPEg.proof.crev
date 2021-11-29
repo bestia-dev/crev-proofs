@@ -1,37 +1,6 @@
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-11-20T10:51:16.729253400+01:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: cc
-  version: 1.0.70
-  revision: 114437e178739d4c4c195b551524bd560f54fc34
-  digest: G3QqidmuKwUlCLfaSSLmmu6s87NpCZGsy6kiwNCWvtw
-review:
-  thoroughness: none
-  understanding: none
-  rating: strong
-comment: |-
-  A library to compile C/C++/assembly into a Rust library/application.
-  
-  
-  I trust the author. I didn't review the source code.
-  
-  Published to crates.io by: alexcrichton
-  Super high reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
------ SIGN CREV PROOF -----
-5v-7hXRtfRvGg1y6NMuL0B9Bb4g4wZwtK6KGJPpiZvJtmdVBpTfx32WSoE8_o4aK0kNb5gXtB3ZILSfXwzJ5Aw
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-11-29T14:59:42.135468500+01:00"
 from:
   id-type: crev
@@ -1731,5 +1700,35 @@ comment: |-
   Published to crates.io by: quodlibetor
 ----- SIGN CREV PROOF -----
 l2ox3G-trF4CJ8s4M-h8JElEyO5Srgj8H5eKT7zMQy_haJ2CZEA1H9IvhcgJUIWeEbMgqK19p-uLfOlY65CFBw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T15:55:18.252337100+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cc
+  version: 1.0.70
+  revision: 114437e178739d4c4c195b551524bd560f54fc34
+  digest: G3QqidmuKwUlCLfaSSLmmu6s87NpCZGsy6kiwNCWvtw
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  A library to compile C/C++/assembly into a Rust library/application.
+  
+  
+  I trust the author. I didn't review the source code.
+  Published to crates.io by: alexcrichton
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+8zEolvzWy1sqvWaA4FUDXj1RZOLvM6VybzxNik81SlUslkQ2AMh9L0bSxffoZzcVE2csfRo1CSRv9rL_r7RXBQ
 ----- END CREV PROOF -----
 
