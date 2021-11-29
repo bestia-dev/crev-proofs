@@ -2790,3 +2790,31 @@ comment: |-
 JHP11iU05nY6osVt7IaDrSayPp0jqYgTUvpeOu_a7cYuHuX97dLxyDmU9FBHJzjH3Eku7GMygxDkDDrbwt7eAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T16:10:49.893020100+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: getrandom
+  version: 0.2.1
+  revision: 95be9b40b4e8f580da0c8a788365122fff3d304f
+  digest: cElGln5ss6ijq5cJM7E1AfQTYlYcbXyDn10CF5JbTMI
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  getrandom is low-level API for random
+  I didn't review the source code. 
+  It has 21 contributors. I hope they would spot strangeness.
+  
+  Published to crates.io by: josephlr
+----- SIGN CREV PROOF -----
+XdXa7kYNuusYy2Hju7D5ZMzY0-2WCeO2xgd-iV9y7oPE0acoA5k1GZRmuSa7n7o54AQDKv176DM5aUpvvH13BQ
+----- END CREV PROOF -----
+
