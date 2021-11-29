@@ -7146,3 +7146,29 @@ comment: |-
 2Yz5SBUPeKgCxQmSkdzzXPE7xqMrpVJjgWU1LKgSehpGA9RqqZ1ffX0kkqxqeu6jFOARfqW-YrkCV96JBNvgCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T17:38:41.754114700+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: aes
+  version: 0.7.4
+  revision: f15fe3fc0d924e2f7f4304427017d72ba828e2f8
+  digest: sUXHRlQfrqdUOFEzU-Fw6GPA6VatXoWDISyX90UDP7E
+comment: |-
+  implementation of the Advanced Encryption Standard
+  
+  I trust the author. I didn't review the source code.
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+          
+----- SIGN CREV PROOF -----
+MAew7hmIUpIbCSjEjV_X4cjBJx0_CHoX1u7rgl46Tw9NhVeOd8qV030nzodusX0E-IPw0Al71fppGBw136EfAg
+----- END CREV PROOF -----
+
