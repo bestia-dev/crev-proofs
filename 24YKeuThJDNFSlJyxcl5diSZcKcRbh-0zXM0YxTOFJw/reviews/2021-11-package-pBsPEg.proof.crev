@@ -7060,3 +7060,33 @@ comment: |-
 VUr2vzshQ8rfkyq6_7RZcxv9eJBx0UMdRH5Xb4DtDwnUTvOwddQDqrVX31BWzl5bm0_XIqi22nbQuVDYEK2MBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T17:37:16.831816+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: aead
+  version: 0.4.3
+  revision: 6e049f5a96a3474faad7929613f950f618e0070a
+  digest: sBQJ4TW9c324zYgd5DvWuaz-fdDrJC1fdc8f0JW8RG4
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  Authenticated Encryption with Associated Data (AEAD) algorithms.
+  
+  I trust the author. I didn't review the source code.
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+          
+----- SIGN CREV PROOF -----
+HHXODlB9hx_BBTdeizoDos9WeUXX0IpW7R-X7TTTFRsuzMx2bj4glJVXQRt0nnCorksxy3-NsH3MJXdOrfmqAw
+----- END CREV PROOF -----
+
