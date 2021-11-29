@@ -5112,3 +5112,32 @@ comment: |-
 ypzJDQu7gTJb2ChNiX07cXNg-TJYz_Tqccftf8C2YYUNbr3iYhfcZkB9_NMgMOr-LaGI_0P9lXPAUJZpmHRnBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T16:35:35.355291200+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: quote
+  version: 1.0.9
+  revision: 68ebadbc1b4242531c5a78fbba01c648bd58c8e7
+  digest: K12jXwySwNe0ZvnNcikuwPxdYK81NhmgY5ZrWjCmyMQ
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  turning Rust syntax tree data structures into tokens 
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+xtQpB602CD2GHRhWNWmZ6O_D4XFbwpDrPIqXkzxtZgThHau40AQ-kQvWe0hcGz_84IsA0ldR5RPDnzfpmQVLBA
+----- END CREV PROOF -----
+
