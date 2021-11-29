@@ -2930,3 +2930,32 @@ comment: |-
 -ijNy_iSRVqSmqspzbw9BYPZ9s256_NP6khd3u8WDKX5INlyJs6nEhfq8FDwiKb9iXGSgLWu0u9v9xWSDz4rAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T16:13:17.524057600+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: git2
+  version: 0.13.21
+  revision: b863968301f0e889fa04afc590d7e2c9a4100dc3
+  digest: yMb0pXHssHFJJ_OUf2nvNyXPiPWVXLRwrJMPQ3PzHU4
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  git2 is the basic crate for git
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+MGb-JSAf0Asi-hf0YvpLMc6Lu1gCqU_auniZzuytsZmFxOVOG_uE7RAiwqpmT51_dy9SWbRv2xepp1Q_94WWCA
+----- END CREV PROOF -----
+
