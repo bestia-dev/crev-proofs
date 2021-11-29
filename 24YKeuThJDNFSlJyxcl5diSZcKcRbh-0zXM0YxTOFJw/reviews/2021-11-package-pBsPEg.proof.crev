@@ -5797,7 +5797,7 @@ Eiq5haKnQL7tEtQ-ux0gVEdBcCRUdtIWGgC6uv8x28fHPleSdZmyzllO3sUDk0g_gcof-I5dYcNQRWD3
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-11-29T16:42:52.133384400+01:00"
+date: "2021-11-29T16:43:06.883099300+01:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -5813,14 +5813,12 @@ review:
   understanding: none
   rating: positive
 comment: |-
-  BASIC LIBRARY
-  
   rand is de facto the basic crate for random
   I didn't review the source code. 
-  It has 235 contributors.
+  It has 235 contributors. I hope they can spot strangeness.
   
   Published to crates.io by: dhardy
 ----- SIGN CREV PROOF -----
-ALhFecrRKBwvJ-IeTRnzjWQXqPHN0jOjCiLcRMyWeOoGV8vwfIfbdlm3PLETrnvkwrrWaoYHMM64OCkHa1hMCg
+fnrO1Nx8QXQ9o0b5kDOPuZBewXrJEZhFYf5L5pt1n4nSwXP5yy3_LiizdeNy2xOyiDr9eVVg-ukWHV17g850Bw
 ----- END CREV PROOF -----
 
