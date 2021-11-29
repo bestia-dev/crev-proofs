@@ -2618,3 +2618,32 @@ comment: |-
 prChjYfflLVdn067LV28DOjBvZKXodJsRwgVX4MomUuBf9wtGGiEOXHHzfMAN8MOGRuwo9qxWZ8pzkmMiWRWAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T16:05:17.820674100+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crev-recursive-digest
+  version: 0.4.0
+  revision: d20ba7bcd9f33dd3d91c19bd5f7348116dec7d64
+  digest: 4y1qch99tHXkkwUurYgUnSRE22fAr-Rf_SypBPM3Ug8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  crev-recursive-digest for cargo-crev
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: kornelski
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+QYRJO5hqGUTPXQxROpzIyr5UgI-Qg5gnnDb452CjzywIXExjcpg4pNT7pUuuh2MfNhsqGv85H2qAHHy-quCCBA
+----- END CREV PROOF -----
+
