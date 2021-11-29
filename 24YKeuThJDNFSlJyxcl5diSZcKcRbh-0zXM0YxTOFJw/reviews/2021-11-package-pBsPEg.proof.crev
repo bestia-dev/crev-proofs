@@ -6277,3 +6277,32 @@ comment: |-
 gsSp6VdFoS7veUslJuvs3NYiGbGndyq8TLsqFnE8dLrhMpf3yGv7eq7MXdFVEgxXfMyEWEBfpAtR99RZz9MgCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-29T16:46:31.883565200+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: regex
+  version: 1.3.6
+  revision: 3221cdb1e33064ed6648d0a5559711cea9c18067
+  digest: QhBOGuay1zOJzRdruva_E4iflaLi_Wqymec0NDJNu4Q
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  regex is a basic crate for search
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: BurntSushi
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+taDlYwPFgZfC4xtg0YZHpMPxvTKTIgmodWW3v--xHmvsa_PybXSCEMWgtBpJ2bly0Cu7OVTgjKokloL8FPiYDA
+----- END CREV PROOF -----
+
