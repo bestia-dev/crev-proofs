@@ -1,17 +1,17 @@
 ----- BEGIN CREV PROOF -----
 kind: trust
 version: -1
-date: "2021-12-02T13:33:40.461246+01:00"
+date: "2021-12-02T14:00:11.808022700+01:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
   url: "https://github.com/LucianoBestia/crev-proofs"
 ids:
   - id-type: crev
-    id: WXavKFY7LG0tRmmHdo36gcGxsfhLF1IhXrsQgQJjSZ0
-    url: "https://github.com/Ralith/crev-proofs"
+    id: VylyTuk8CMGqIxgHixWaqfiUn3xZyzOA1wFrQ0sR1As
+    url: "https://github.com/BurntSushi/crev-proofs"
 trust: high
 ----- SIGN CREV PROOF -----
-ToevUP0Vw3XZyCjpo0_1L0bhIqUL6lQryF1ZSWe2pU-_FL1cf6CxSzAQqNOAaSIXJP62l1nDrGMaFojwWOg8CA
+F3EcrMG9zBhnLhTffu4pFPxDu9HV2oW9YtZm9JIPH5B1K5mmEUpP68jijPP5ygEI3_LMgHG93qoHci9kqLcRDA
 ----- END CREV PROOF -----
 
