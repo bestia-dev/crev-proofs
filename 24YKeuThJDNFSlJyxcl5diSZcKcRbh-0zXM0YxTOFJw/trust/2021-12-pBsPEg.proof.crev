@@ -415,3 +415,19 @@ trust: low
 C1gCXYJVEhRLouzkwxwTmC7HyBxmNLsnY3qReCOjpbW89dRDdDAGWM-T49Ht2AuNV14HSUJNkKMMCxMei29hDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2021-12-04T09:57:40.427924600+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+ids:
+  - id-type: crev
+    id: 0_-ImsaD4m1H5MsFbJXLGKkq_jfNa3Mp-W8ipDbu0Ro
+trust: low
+----- SIGN CREV PROOF -----
+y9DaKN4VY0a8OoCEGBszDlhViyxHbYVGg2ToQhNRSw2mn97wOp0dXJWo0dAJjBoILvAgWuM-cbp2t7cirOMxCw
+----- END CREV PROOF -----
+
