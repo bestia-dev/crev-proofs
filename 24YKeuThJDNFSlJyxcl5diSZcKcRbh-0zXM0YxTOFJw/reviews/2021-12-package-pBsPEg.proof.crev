@@ -934,7 +934,7 @@ V3SfJssKo95YRBmW2VYtCw46n3c9tk41otXQdIzQXLT--cjXVsoMQH1L2qOYx0BTisCxJkLjhrdH7Npv
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-12-15T12:34:29.018206800+01:00"
+date: "2021-12-15T12:34:36.801840700+01:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -950,11 +950,10 @@ review:
   understanding: none
   rating: positive
 comment: |-
-  Suggesting a copy from your last review:
   I trust this publisher to crates.io: dtolney
   https://web.crev.dev/rust-reviews/people_of_rust/
   I didn't review the source code.
 ----- SIGN CREV PROOF -----
-Yl2HHtj-FeR-d_caZQ9cs6O_zrNMpZaaaz8IYpLLn7khkGtFt9OZahX8gmjEE_OEGfCsciHzbTK87F_MAHVbBg
+06oySiCNwYIhugHPvoutccQtMu3hAfyFAAoBZ9cuVjETz4t5_UspOFglO9pfkoEpdLtYQnDcedRbHlTn9N9XBQ
 ----- END CREV PROOF -----
 
