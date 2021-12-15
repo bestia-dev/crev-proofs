@@ -1011,3 +1011,30 @@ comment: |-
 19dPiEFVYI03nmTgmq-0wDEyE2oGkqrV1MX83VQqTjYLWvZn5DVy-ZYBWLQDrUj1HEb-udcQELtqIExoPdUvCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-12-15T18:37:21.321957400+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: libz-sys
+  version: 1.1.1
+  revision: 461e100e99a8b2b5fdf60a9370fa50012784a39d
+  digest: n2yM8JT4kRP9ru5ODK2ZbLzpGoyJYMoDNs6NO2CEeYE
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  I trust this publisher to crates.io: joshtriplett
+  https://web.crev.dev/rust-reviews/people_of_rust/
+  I didn't review the source code.
+          
+----- SIGN CREV PROOF -----
+TSv6rPzL8uEkKkQ66XaOWdu07SaazSUgrO5Vf_tSPKZygckBpzmDpsNUusOnOrthIwW_TgaVFtLyY_d1MRl0BA
+----- END CREV PROOF -----
+
