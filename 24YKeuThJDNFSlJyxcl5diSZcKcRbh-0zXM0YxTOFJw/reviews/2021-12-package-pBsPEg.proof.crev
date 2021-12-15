@@ -388,3 +388,29 @@ comment: |-
 XsG6eY9rVdZ6zaUsuPmz41J9XmLVUPoj3CJUxhSQn1z7IS-i4WVKv0b1ZjcjPJ42OTxgtSkG5RZAcxHF8TiwBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-12-15T12:31:10.761611500+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: proc-macro2
+  version: 1.0.26
+  revision: 56043a1715cf9c458e5203bdf792668e3b271651
+  digest: PomBqMmvHgyehydN_eThndyIZBp9zHH_xU0keVellwc
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  I trust this publisher to crates.io: dtolney
+  https://web.crev.dev/rust-reviews/people_of_rust/
+  I didn't review the source code.
+----- SIGN CREV PROOF -----
+ahZ8DwibxB8zr7ppg2A55mre4uxT_nuG_SQiqKnraoVvMPtxHUnKddG7dqxZbOfGoL5hXSm-gL8SqNX_DniQAA
+----- END CREV PROOF -----
+
