@@ -24,3 +24,35 @@ comment: |-
 XAgGdaFPnV1Qi1HdtCATg6J_B0NEh2VRNfwcBnoU68Gi4MP9q5lQGYR9odIj9JWjc_Avy3_5HITYSNVAbbvJAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T19:37:31.883348927+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: atty
+  version: 0.2.14
+  revision: 7b5df17888997d57c2c1c8f91da1db5691f49953
+  digest: WJaqS5xu6ORo2px2Rku1ynYYN4TuCdxeS8LR68ngyw4
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  atty is a micro-crate with little code and no dependency.
+  The code looks fine to me. Complicated just because of multi-platform support.
+  I trust it.
+    
+  malicious potential: 0%  
+  dependencies:libc, winapi, hermit-abi
+  unsafe:6 (because working with low level system calls)
+  NONE: FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command, macro_rules  
+  published to crates.io by: softprops (unknown to me)  
+----- SIGN CREV PROOF -----
+d9qcm711o0D3wyiDHnmbOm19CYqS9an4Obz056BsSxLK9HbFwr-jWWMzhIBpJLk-GsLprZFVWGiqHyw-26loAA
+----- END CREV PROOF -----
+
