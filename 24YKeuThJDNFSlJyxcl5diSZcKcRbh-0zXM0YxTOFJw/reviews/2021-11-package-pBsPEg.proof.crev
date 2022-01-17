@@ -661,38 +661,6 @@ LcsayMx2pvZqq6gE_Nd_oOVEhHlybeFCPYaNjtd6OftQXf_z2I-ur7RRCJkEE0OVx88vycSzMoKUr2rp
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-11-29T15:29:33.331263900+01:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: atty
-  version: 0.2.14
-  revision: 7b5df17888997d57c2c1c8f91da1db5691f49953
-  digest: 43bdBdz29rGPtdjhLdE0zA-ZudRkwB1ISyTTj0vft-I
-review:
-  thoroughness: high
-  understanding: high
-  rating: positive
-comment: |-
-  atty is a micro-crate with little code and no dependency.
-  The code looks fine to me. Complicated just because of multi-platform support.
-  I trust it.
-    
-  malicious potential: 0%  
-  dependencies:libc, winapi, hermit-abi
-  unsafe:6 (because working with low level system calls)
-  NONE: FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command, macro_rules  
-  published to crates.io by: softprops (unknown to me)  
------ SIGN CREV PROOF -----
-q8ws7rdIa2LzNich7uvA5bZeNGow_n8J_xEUUPWfeLKavqk20prlestxQPqkS-5XhLnPsHo7OvTaKmA3USbjAw
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-11-29T15:29:49.852276200+01:00"
 from:
   id-type: crev
@@ -6151,36 +6119,6 @@ comment: |-
   https://web.crev.dev/rust-reviews/people_of_rust/
 ----- SIGN CREV PROOF -----
 VUr2vzshQ8rfkyq6_7RZcxv9eJBx0UMdRH5Xb4DtDwnUTvOwddQDqrVX31BWzl5bm0_XIqi22nbQuVDYEK2MBg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
-date: "2021-11-29T17:37:16.831816+01:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: aead
-  version: 0.4.3
-  revision: 6e049f5a96a3474faad7929613f950f618e0070a
-  digest: sBQJ4TW9c324zYgd5DvWuaz-fdDrJC1fdc8f0JW8RG4
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  Authenticated Encryption with Associated Data (AEAD) algorithms.
-  
-  I trust the author. I didn't review the source code.
-  Published to crates.io by: tarcieri
-  High reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
-          
------ SIGN CREV PROOF -----
-HHXODlB9hx_BBTdeizoDos9WeUXX0IpW7R-X7TTTFRsuzMx2bj4glJVXQRt0nnCorksxy3-NsH3MJXdOrfmqAw
 ----- END CREV PROOF -----
 
 ----- BEGIN CREV PROOF -----
