@@ -1,7 +1,7 @@
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2022-01-17T18:36:16.143379171+01:00"
+date: "2022-01-17T18:42:42.524355818+01:00"
 from:
   id-type: crev
   id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
@@ -11,7 +11,7 @@ package:
   name: aead
   version: 0.4.3
   revision: 6e049f5a96a3474faad7929613f950f618e0070a
-  digest: bVIaGI-A1kQeSjLPd5s3mvF_hkHc1VL6M732DPz1DeQ
+  digest: sWHmGSevjVwjDxyT631QUCRIiA0Kq8SpIkkRGx5i9go
 review:
   thoroughness: none
   understanding: none
@@ -21,6 +21,6 @@ comment: |-
   https://web.crev.dev/rust-reviews/people_of_rust/
   I didn't review the source code.
 ----- SIGN CREV PROOF -----
-jmGu-KHz2ObggbE2X67a7eC9pUTxK2lZZ4lRSzGVSVrZHjumI2Wa4dxcWRXKzSdIHKaIzrofNThoeHh_apzkDw
+g1I26xK0816pEXPlvSdipXu8s3ghXCEpg8sw0hR0qokNCF7FGcih9dZBRqajVrgniz_SfFFakMD4jPxUwQT7Bw
 ----- END CREV PROOF -----
 
