@@ -142,3 +142,29 @@ comment: |-
 aLwCUo_JrO1PgElBA5Q1JPmY6Zpge2eJeBs_8NHrp5w2y-rgMzkGTfqjtFLIc09uAX2AsCPXeRAGxYRHOLUSAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-21T09:32:38.346219886+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: anyhow
+  version: 1.0.43
+  revision: 39899cc16830efe97edeede701bdd507d002e62b
+  digest: hAC-ietFfV4j32ZZtyoPFrKDlxMAkeRnh31SY3PiKn8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  I trust this publisher to crates.io: dtolney
+  https://web.crev.dev/rust-reviews/people_of_rust/
+  I didn't review the source code.
+----- SIGN CREV PROOF -----
+n-ytinDCQCWik_KDuu3AFBFpqY1c-_bYIN__1R4PgfdldtQKBWJE_DFZbdEtoqwFGV4Edr6pKIPK8akFt958DQ
+----- END CREV PROOF -----
+
