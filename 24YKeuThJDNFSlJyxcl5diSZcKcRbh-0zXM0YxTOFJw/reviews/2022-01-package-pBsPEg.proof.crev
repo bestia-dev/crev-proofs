@@ -87,3 +87,32 @@ comment: |-
 bEL8R7L721FV1QnO-E8kvl-t3Utik332IdKRz8WcuAXxUTH9qOY2NMseATS0NNUzxfLeZ_Ke6410nSxGXUQGCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-21T09:32:37.978099504+01:00"
+from:
+  id-type: crev
+  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
+  url: "https://github.com/LucianoBestia/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cipher
+  version: 0.3.0
+  revision: 76eeac2e494a90cf847be767117f8ca155f50709
+  digest: RWl72FpMPCylFnYYtdCaNUhg_7BBwcocTAgjl_sLQTc
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  Traits for describing block ciphers and stream ciphers
+  
+  I trust the author. I didn't review the source code.
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+T7UMuwEdm-ZOKZEn-u3vAQ7l9r05DJNCKMq42CBR08ByjA-nfU51MkGsLAPD5oUrDdejkveiGtnYncqa1tm6Dg
+----- END CREV PROOF -----
+
