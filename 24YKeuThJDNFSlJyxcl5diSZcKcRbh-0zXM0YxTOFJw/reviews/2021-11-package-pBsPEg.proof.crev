@@ -759,39 +759,6 @@ O6ZpIBgqc4pTh5KIAgp9gblv0M51RWQzqw63b2q0B_tioStXV4ZKHphDYzV-p2ENnsd59DZ0-Q5S2C6a
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-11-29T15:31:38.443146400+01:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: bitflags
-  version: 1.2.1
-  revision: 30668016aca6bd3b02c766e8347e0b4080d4c296
-  digest: t6398H9ZnON9weuNb62OONW0lVbC4FrRZ5F-nttJuSs
-review:
-  thoroughness: medium
-  understanding: medium
-  rating: positive
-comment: |-
-  bitflags code is a big macro. no dependency.
-  It looks basic and low. It has a lot of contributors.
-  I trust them to spot any strangeness.
-    
-  malicious potential: 0%  
-  build.rs: just check the rustc_minor_version
-  dependencies:0
-  macro_rules:6 (that is the point of the crate)
-  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, proc_macro, process::command, 
-  published to crates.io by: KodrAus (unknown to me)  
------ SIGN CREV PROOF -----
-YWF5pwB4Z5M4JvoyCrz8cJYApFrQNHNoit1crbV9VmqvNszltEnBT1mhtlrlKuiB2pFsEAVV7nUYQmy9j1aVAQ
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-11-29T15:31:50.429909500+01:00"
 from:
   id-type: crev
@@ -1338,36 +1305,6 @@ comment: |-
   Published to crates.io by: quodlibetor
 ----- SIGN CREV PROOF -----
 l2ox3G-trF4CJ8s4M-h8JElEyO5Srgj8H5eKT7zMQy_haJ2CZEA1H9IvhcgJUIWeEbMgqK19p-uLfOlY65CFBw
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
-date: "2021-11-29T15:55:18.252337100+01:00"
-from:
-  id-type: crev
-  id: 24YKeuThJDNFSlJyxcl5diSZcKcRbh-0zXM0YxTOFJw
-  url: "https://github.com/LucianoBestia/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: cc
-  version: 1.0.70
-  revision: 114437e178739d4c4c195b551524bd560f54fc34
-  digest: G3QqidmuKwUlCLfaSSLmmu6s87NpCZGsy6kiwNCWvtw
-review:
-  thoroughness: none
-  understanding: none
-  rating: positive
-comment: |-
-  A library to compile C/C++/assembly into a Rust library/application.
-  
-  
-  I trust the author. I didn't review the source code.
-  Published to crates.io by: alexcrichton
-  High reputation and visibility in the rust community.
-  https://web.crev.dev/rust-reviews/people_of_rust/
------ SIGN CREV PROOF -----
-8zEolvzWy1sqvWaA4FUDXj1RZOLvM6VybzxNik81SlUslkQ2AMh9L0bSxffoZzcVE2csfRo1CSRv9rL_r7RXBQ
 ----- END CREV PROOF -----
 
 ----- BEGIN CREV PROOF -----
