@@ -1,3 +1,7 @@
-# Template of [Crev Proof Repository](https://github.com/crev-dev/crev/wiki/Proof-Repository)
+# Crev proofs repository of LucianoBestia
 
-[Fork](https://github.com/crev-dev/crev-proofs/fork) this repo to create your own, empty Proof Repository.
+It was first forked from [Crev Proof Repository](https://github.com/crev-dev/crev/wiki/Proof-Repository)
+I wanted to unfork it, but Github can only rename+import to achieve something similar.
+I renamed it to crev-proofs-old and imported it as crev-proofs.
+
+
