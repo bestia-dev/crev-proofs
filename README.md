@@ -1,6 +1,6 @@
 # Crev proofs repository of LucianoBestia
 
-It was first forked from [Crev Proof Repository](https://github.com/crev-dev/crev/wiki/Proof-Repository)
+It was first forked from https://github.com/crev-dev/crev-proofs
 
 I wanted to unfork it, but Github can only rename+import to achieve something similar.
 
