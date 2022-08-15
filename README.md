@@ -1,9 +1,9 @@
 # crev-proofs
 
 **Crev proofs repository of LucianoBestia**  
-***version: 1.0  date: 2022-03-13 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/crev-proofs)***  
+***version: 1.0  date: 2022-03-13 author: [Bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/crev-proofs)***  
 
-![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/150297083)
+![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/150297083.svg)
 
 Hashtags: #rustlang #crev #review
 
