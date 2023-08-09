@@ -784,3 +784,33 @@ comment: |-
 8upZl_k1JEbn42mZOV0QzK5AdZrHzA4UIB_ukm5Wd97K0wIQaReGeCHCDSrU985T6hGxoXlQ-tApk88D6P1lBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:22:03.420618800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: git2-curl
+  version: 0.14.1
+  revision: d7757f170d098517a24a76a7982da3f897c0255b
+  digest: eJgfSyvtcZ2IHI4zjK2K7x7x1j8dvS1hG-0rTBE5Tcs
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  git2-curl - libgit2
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: joshtriplett
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+POsKWhUsL69WkUMAbN6FxuKTfddpMueKvVGYB1ckjzgtcLVpXoP-ZXCbjgo-rkGCTCn-wuoljQBcNF5zKDMeAw
+----- END CREV PROOF -----
+
