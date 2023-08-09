@@ -450,3 +450,33 @@ comment: |-
 1oLiM8-ciqfMlqId0LMZX1gp9rp66VWzKg44mDleLQScZFwHhiY4BrAv9jSKBWHhwWslv669GQ_6Cr3HD44BBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:46:42.971127400+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: semver
+  version: 1.0.4
+  revision: ea9ea80c023ba3913b9ab0af1d983f137b4110a5
+  digest: VsH3-rk4nwDk9LCohOtBDlhxcXG4kAGKvZ6cfu1-rHc
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  semver - parser for cargo semver
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+axEfDQvdYYhnl1dZonwcZbqlACeFlWsyA-HbiNpSphPLhsSe0TVBv8_wnrwHLEa8xhTtTvCYAt0UotWqXJL3Aw
+----- END CREV PROOF -----
+
