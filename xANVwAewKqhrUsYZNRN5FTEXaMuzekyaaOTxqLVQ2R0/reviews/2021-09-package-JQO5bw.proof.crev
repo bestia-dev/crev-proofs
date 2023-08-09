@@ -1153,3 +1153,28 @@ comment: |-
 MR_penVfrHhTiblKxzZ7riJMppJoEL0eNPpDnyrBximhHV2T_S4mGwV1iTZ56zjgD_O16fUwLBE5LAvuiQBJCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:12:30.687828600+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: clap
+  version: 2.33.3
+  revision: 33bebeda52b52c6f643b4ed6fa880671ba0ab80a
+  digest: x_J6XgPF2up-HC86O_I8OS2ewJbQjn_ki1FsFKXj0Fg
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  library for parsing command line arguments and subcommands
+  I trust the 323 contributors. I didn't review the source code.
+----- SIGN CREV PROOF -----
+CI5TWnimM2I2iCP_LhNIsUHDy16YmULLknQjehxr6U8B7p3tg-EYbGR-qhDRWDrVwlM5Py10rez_cVOGpTI9BQ
+----- END CREV PROOF -----
+
