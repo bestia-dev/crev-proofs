@@ -6148,3 +6148,33 @@ comment: |-
 4nB78JOiC8fZpDqPMzZGGvFIDe4mz6M5HMeDPgDIHbi5EfCFJCwd4piX6a7WctQWrFwZSSgmtGlDKI1sWTaRAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T20:09:52.831890200+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: cmac
+  version: 0.6.0
+  revision: 82d93cae1c24f833a4c4e1312d58d0f624b9415d
+  digest: ABHShb2rbVsruIzIdz3_MYPt-7UNV-O1sB2ilwalciA
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  Generic implementation of Cipher-based Message Authentication Code 
+  
+  I trust the author. I didn't review the source code.
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+          
+----- SIGN CREV PROOF -----
+pa6vFJ7-SivuhJE-Q4V8vAO-MPRHGF_3SZlHWzS_x5yqBJSHImve4fTNAmfsfVaHVRXyjzYXByw3ItcZdBLvAg
+----- END CREV PROOF -----
+
