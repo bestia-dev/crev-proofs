@@ -604,3 +604,33 @@ comment: |-
 kdmVYTTG-cbLzLEQE1pf4y4TUg01xYTSSaha_vQD9UPTmGGJgEokEIGm5rQ1_P92wO2mrNdPb1p99HCDzinnBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:10:18.240696400+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: thiserror-impl
+  version: 1.0.28
+  revision: b47c75d3f5fc3f9d4101feb1b1ab30dbcd543141
+  digest: _lm9yrvhXra43k8wi2cV3F2Y2UlU7zIbLV9Zmw839C8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  thiserror-impl is basic crate for error handling
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Bem6VQ4bZEkXmvptoqYisPLMOv0QMsO0GLtXPNDIoLWs4KCKkw8qO70U3joTvOQHbrCTB6Z7qof-mKiQSLLaCQ
+----- END CREV PROOF -----
+
