@@ -1874,3 +1874,32 @@ comment: |-
 9bxXDK7GA1rwm4kfMVEy6Cgc8h0bdUwj35PTC7r4Z8P1529nxq8ryJk3MHTWjlaTwTFpvw73lqfERpKS2iidCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T16:00:32.372255100+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: crates-index
+  version: 0.16.2
+  revision: df159459d8cdae52ab496d0ff029e49c23f14ae6
+  digest: 8f-inc_IOBzA_nwyvFsS3-bzb9XpS1Zj7StBgVbjCsU
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  crates-index for crates.io registry git-based index
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: kornelski
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+6ZduWyH8nzSfyRauEJcnED0IymYFMSsfwEubb8UVusbFYKfhHp_FBc_xm1Yca56zs19WGeWtCSLAaC0jeg40AQ
+----- END CREV PROOF -----
+
