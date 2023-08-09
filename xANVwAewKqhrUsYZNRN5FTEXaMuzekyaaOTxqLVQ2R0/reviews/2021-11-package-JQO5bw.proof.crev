@@ -1667,3 +1667,33 @@ comment: |-
 3UwyEsEuLZ9m9xIwy4iFGfg9WnV9VTI1ucHn5cWkuzZKRKJlQ264IPQzDVhgZUMxAJJzQKQ1Nl7FeUWUU1w1DQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T15:56:53.010559300+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: cc
+  version: 1.0.37
+  revision: cbf6d2f1312b6be22a7a363cf5c2a02acabc531f
+  digest: 6JhaaYSc5Gvf9ulWBMKHdj93jhWUq0UZ_EwMFqqH_WQ
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  A library to compile C/C++/assembly into a Rust library/application.
+  
+  
+  I trust the author. I didn't review the source code.
+  Published to crates.io by: alexcrichton
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Hz110vLsZSGD-UASUM2BtPfWt_YS4EBmS2LeLqKVBNXFW4MfizngMEp3W3emiG7YbbkNZc8wHkGuE9ocXdPMBQ
+----- END CREV PROOF -----
+
