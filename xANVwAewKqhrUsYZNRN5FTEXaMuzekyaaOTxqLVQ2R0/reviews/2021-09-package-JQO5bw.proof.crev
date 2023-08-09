@@ -844,3 +844,36 @@ comment: |-
 1M2oIPTgU81X1PWpCvDTWDQZXoxeJOA8dzlBGrq0jdVc9IaJAQTmlnwefJTRWfJLaOLlfKw_Yh0DIu_mTCo5DQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:23:29.604242500+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: codetour_export_to_md
+  version: 2020.605.1303
+  revision: 265073636d9ad5f9d6bfab75644ed6479924e8b7
+  digest: 9GTBmCLACfYZ7NmrsaMrnDfH9_nUKnM6USvhteGZlbQ
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  It is a binary for use in development time.
+  It reads all the .tour and some .rs files from the Rust project folder.
+  It creates one .md file per .tour file.
+  I trust it.
+  
+  malicious potential: 0%   
+  read/write: files in the rust project 
+  dependencies:9 
+  NONE: unsafe, FFI, asm!, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+----- SIGN CREV PROOF -----
+gvvLqAYjLmExKlA5uQflj7FUhAqZdgq77UFMzcG_K5fJseyDcP3RimtN16adIpl0pgRiYw8IA6aDQopecqBeAQ
+----- END CREV PROOF -----
+
