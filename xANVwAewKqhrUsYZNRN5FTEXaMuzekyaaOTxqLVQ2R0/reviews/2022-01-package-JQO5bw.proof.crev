@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-01-17T19:34:18.624172184+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: aead
+  version: 0.4.3
+  revision: 6e049f5a96a3474faad7929613f950f618e0070a
+  digest: sWHmGSevjVwjDxyT631QUCRIiA0Kq8SpIkkRGx5i9go
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  I trust the publisher: tarcieri. 
+  https://web.crev.dev/rust-reviews/people_of_rust/
+  I didn't review the source code.
+----- SIGN CREV PROOF -----
+9LeTXcV-itYDCduOI7gRDgrxY5CtbyVIS4RGp_Oi97wN5V9lwCvFw02KgSR-DqcL9WY9SuDYE_GDxctUvecRAQ
+----- END CREV PROOF -----
+
