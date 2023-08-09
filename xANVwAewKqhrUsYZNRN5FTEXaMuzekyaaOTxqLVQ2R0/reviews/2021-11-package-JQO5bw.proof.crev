@@ -1053,3 +1053,32 @@ comment: |-
 03G1MJmXYQyQrU11YFkSphewKDvCw-WncIEM5v8jcNdhcDFPyPaqQrzFBmFbC7wJydkcBb83cpy0-l5SlTDxBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T15:38:13.911813900+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: cfg-if
+  version: 1.0.0
+  revision: e60fa1efeab0ec6e90c50d93ec526e1410459c23
+  digest: YmRVto2mw7U7GJhrOe13k_5Sgg9TcQWK1NuLN2Qiz5E
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  cfg-if is a basic crate: A macro for defining #[cfg] if-else statements.
+  
+  I trust the authors. I didn't review the source code.
+  Published to crates.io by: alexcrichton
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+oaLnbCpyzgmD0DAVnC7HU9gJP0hgJqKa8SpgViBhB5dQeMSEXVUuFwrEygE5lMM6gvTIj6vJOElmKsqPsDXqDA
+----- END CREV PROOF -----
+
