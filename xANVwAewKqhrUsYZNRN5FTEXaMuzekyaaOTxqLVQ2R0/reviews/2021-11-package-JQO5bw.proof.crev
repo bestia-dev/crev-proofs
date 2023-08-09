@@ -756,3 +756,36 @@ comment: |-
 lS4qyrwuByIRcwUU8tnsSBb1KgAnibAXM_FeRFP9_rNAJyEcvjQmob778-yOMEIyv9rDyu11v7GnxYe391G2Bg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T15:31:50.429909500+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: bitflags
+  version: 1.1.0
+  revision: fffdfe8379a745c88d6cbc17b4454789b499ee56
+  digest: ANh68S-S2vsKWJFqICgFjYMGmpAyZxAiVlAuAA2w_Nc
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  bitflags code is a big macro. no dependency.
+  It looks basic and low. It has a lot of contributors.
+  I trust them to spot any strangeness.
+    
+  malicious potential: 0%  
+  build.rs: just check the rustc_minor_version
+  dependencies:0
+  macro_rules:6 (that is the point of the crate)
+  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, proc_macro, process::command, 
+  published to crates.io by: KodrAus (unknown to me)  
+----- SIGN CREV PROOF -----
+pGkHSBpckfOZUW0w5qKwT4Wbw3Nhuzt6UcCAbqSycX0Mq4g51QEhue7_Fl6_QMfUqLZu6OS1z-Q3u3ZbtWWSCQ
+----- END CREV PROOF -----
+
