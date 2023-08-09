@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-12-15T12:09:27.774069500+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: anyhow
+  version: 1.0.42
+  revision: ce33cac487ffe21d3e931e304b2c4f78322b04fd
+  digest: 7FNMb1TH10GVRg3PLcateDfI_ArQ0w3IKCmOLt05CTk
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  I trust this publisher to crates.io: dtolney
+  https://web.crev.dev/rust-reviews/people_of_rust/
+  I didn't review the source code.
+----- SIGN CREV PROOF -----
+MkCHQmoeFg4n-cKne4fouWjgDuAgVkBHK4WJz-xNBlOLbKFwDb8UWvC-pQHVgkk6y3p9Pv6Mo52S4aSsna7wCQ
+----- END CREV PROOF -----
+
