@@ -141,3 +141,34 @@ comment: |-
 MSBpX7GfoNx6Vbt42e6FhsN8J_K74UWHWahA2TYD8dLSBp23cuM7wtCUkquV8fpE1Du6ZIe0wggmSLvMNecGDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:33:49.630875100+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen-test
+  version: 0.3.26
+  digest: ZoQq4VZqHWJy10g5Mq3RUyNZ9meYb2pW3MAJ8Gq4u9w
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-test is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+KJjgsPRixjZpKLleK3pS9AA03rA8h7Eh7kHJwIKzGvlO6V_rU54NUgrcdqZwgVsGCRU8-oT6AxV9oOzy7DfpCg
+----- END CREV PROOF -----
+
