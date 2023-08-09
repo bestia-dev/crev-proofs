@@ -1280,3 +1280,30 @@ comment: |-
 Tkt8-Dr7soAN4HDw9zzEdYP_aoQrjASb5sGb7ZbAfdlHuFOBR2L9JXwnR3rqyqrK-C65lQZ1Rz6OtIwnOIWUAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T15:54:06.618270800+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: chrono
+  version: 0.2.25
+  digest: 95qQXPdOBJs3o-FMTqB7Gh0emQENFx3K62oUnzB9TW4
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  chrono is de facto the basic library for time in Rust.
+  There are 100 contributors. 
+  I trust them to spot any strangeness. I didn't review the source code.
+  
+  Published to crates.io by: quodlibetor
+----- SIGN CREV PROOF -----
+vhHvJj6jfy0d0ZsBRXd01hAL_n0Wqhw6PyLBHLTYgnk6_yAPUO1Fh2e-ilwDZzbIDt9Rt-Cgrjn0Y-lIDIPYBw
+----- END CREV PROOF -----
+
