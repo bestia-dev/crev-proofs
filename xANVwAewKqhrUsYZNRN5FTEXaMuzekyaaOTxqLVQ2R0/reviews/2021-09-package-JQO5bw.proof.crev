@@ -1124,3 +1124,32 @@ comment: |-
 Zur2hWuE5gGWCsYc4ldtNY4pfKjPEOPwrQZubahayc0gTm4wvN8Oj4wkNdveNMx2-2AJz2z6hkIzUYUcGKIvBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:10:09.319711300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: scoped-tls
+  version: 1.0.0
+  revision: 52df1890cab1f8ff07c17ddf7bd4a18c706c5f41
+  digest: kETqqoXcUdw7ZgJGOf8bDapX_PwhQg-GirxU0byVSlM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  scoped_thread_local! macro
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+MR_penVfrHhTiblKxzZ7riJMppJoEL0eNPpDnyrBximhHV2T_S4mGwV1iTZ56zjgD_O16fUwLBE5LAvuiQBJCw
+----- END CREV PROOF -----
+
