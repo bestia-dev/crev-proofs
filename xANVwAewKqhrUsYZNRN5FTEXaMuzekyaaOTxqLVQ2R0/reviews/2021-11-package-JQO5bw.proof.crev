@@ -1990,3 +1990,32 @@ comment: |-
 St7ylSMT7MEWU_1O8Y2bKG3mK0Coh71oIOLQR2u7sGbDJCU5i-aqDPiFmktjVcCbT9LP0jdrtIScqbacFwDxCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T16:02:55.453452300+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: crev-data
+  version: 0.22.0
+  revision: 2cf71a54ec4b3fc75d2449b3ae9c9f837cb36e4d
+  digest: Gt09dypfQU1vs_GFvOw3hwyM2fX_nLLYmy5X69sabS4
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  crev-data is the basic crate for cargo-crev.
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: kornelski
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+eUhEKhGs4r5Htwd_mjtuw5UMJbZ5s6_bSeEPFVcwRbpVZvYpo7FQubhiGPvU96s6f-PT4ctkt9Hr8xcm9vhoAw
+----- END CREV PROOF -----
+
