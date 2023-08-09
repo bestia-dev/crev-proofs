@@ -1240,3 +1240,32 @@ comment: |-
 HSTUZx_0O6ihTMugTitvxFNt-TUz5-Qvr_ylhyJteo-1EfXTv6guERnm_hxXRgqcD1keHBkTDmaEMyeoOd6lDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:23:29.638421900+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: toml
+  version: 0.5.8
+  revision: 94b319f5eeb80dbc7420246416a69d5bd0a9557d
+  digest: nGgADnuEoHCOHo_59iekmclE_UsIDQstPZgK9cohCgo
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  TOML decoder and encoder for Rust
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+GHY2KIc0jpvBtByfsOTi8bqoeLolasgtywx-lHSCLgSbpC3Ju13Nio3g6W0YhvLblCKyvkG6jNwcIBctqgaOAg
+----- END CREV PROOF -----
+
