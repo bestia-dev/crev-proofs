@@ -969,3 +969,34 @@ comment: |-
 V3cBsxMWcTVFpeeQzDhbTLYAsj0j7nfQ5q8luVPDIluRk6ygRMWpMYzSOweKhHB-IAgYufTXTAXTgYAr7qyFDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:41:50.751438100+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: rust_wasm_dodrio_router
+  version: 0.5.2
+  revision: 4321dd6f24c19a5f5731464ad9b57eeb80ef7d91
+  digest: nPckWCgNFKNUaUkVqjlaClMoES0mr5vmzY0VqZCpxQY
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  This is just one RouterTrait to use with dodrio vdom in wasm.
+  I trust it.
+  
+  malicious potential: 0%
+  dependencies: 12 Lines of code: 80
+  NONE: unsafe, FFI, asm!, file read/write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+  used in my project: https://github.com/bestia-dev/unforgettable7_game
+----- SIGN CREV PROOF -----
+6vMMNbOBy1f3OEOynd9TkGM8amYn1GMa-67JApKhX3iw5njF3PTxbqRVUNFvzhsVshhhbVGue441j9mRdlNIDw
+----- END CREV PROOF -----
+
