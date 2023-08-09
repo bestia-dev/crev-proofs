@@ -208,3 +208,33 @@ comment: |-
 uayVBqIS_0aqB9fACDgWSNGygUMlx3aqsq7UBVTivUET6Z3LOekjd4MRn_201RkkwI2mERKpFROmHbvrSllUAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T15:01:43.390790500+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: bumpalo
+  version: 2.6.0
+  revision: 53a8021e6d5c8b24bb1b785323b5e559f406a13f
+  digest: 0UsDAsj9sh5kc707fmuQVifEf9bF_DOT_2MfxrJIWkU
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  bumpalo is a basic crate for memory allocation.
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: fitzgen
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+s7PIhUmy8HtX08tBTPa4a7In4t0oxdJxK2M6qZcH381Ls6fDzbye3TxPdRPYPipiecgYdJg1Jufv1-KNLadbDA
+----- END CREV PROOF -----
+
