@@ -420,3 +420,33 @@ comment: |-
 3RXZFZyRu-cfaAwKdHXdzx4dj2n7-UgZ70McE7m8UApDVQT-UH5CmFK5LC7osh0FpgCpFB0INVPsi4StrUBkCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:43:07.090539700+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: crates-io
+  version: 0.33.0
+  revision: 43b129a20fbf1ede0df411396ccf0c024bf34134
+  digest: YzW8TU9V0mt_ukG8WUbijC2ISjPlorA7r_c_P_bw9_Q
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  crates-io helps interacting with crates.io
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: Mark-Simulacrum
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+1oLiM8-ciqfMlqId0LMZX1gp9rp66VWzKg44mDleLQScZFwHhiY4BrAv9jSKBWHhwWslv669GQ_6Cr3HD44BBw
+----- END CREV PROOF -----
+
