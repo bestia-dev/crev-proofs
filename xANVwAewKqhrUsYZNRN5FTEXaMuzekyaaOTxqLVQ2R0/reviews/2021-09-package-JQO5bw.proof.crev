@@ -1209,3 +1209,34 @@ comment: |-
 X6NmilKfpL4mdZ2qRzPI9MWhgQyIeeQM4VTTpx7yc-via8Az01vAaELl7AVwXPynYQwwqzKBLL1NkB6-yXYBDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:15:41.989488300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: unicode-xid
+  version: 0.2.2
+  revision: aa989880611f325b2eacc8c6da21e5826c11565c
+  digest: he1Lw_j_qQC3rz02jwx3WGUPst0vC_d78yFfkaqMIWU
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  Determine if a char is a valid identifier for a parser
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: Manishearth
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+HSTUZx_0O6ihTMugTitvxFNt-TUz5-Qvr_ylhyJteo-1EfXTv6guERnm_hxXRgqcD1keHBkTDmaEMyeoOd6lDA
+----- END CREV PROOF -----
+
