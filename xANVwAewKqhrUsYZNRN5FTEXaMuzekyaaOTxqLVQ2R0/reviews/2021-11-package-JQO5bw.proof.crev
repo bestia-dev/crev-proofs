@@ -1024,3 +1024,32 @@ comment: |-
 w18hH5KsPxi1efr51mawPbd6F614P6FqQfzU4EJEI_B6mP__M5cPivYt5kaP6kwMl1VnKwDmJ9YYlNWD7RhdCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T15:36:24.538415800+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: byteorder
+  version: 1.3.1
+  revision: 64c03fb383289f8e42b2892bf72297879777a238
+  digest: Zh-2Tbe325ObJ51-O46m-B4hT_WUMnK2GSJJXVNKpXg
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  byteorder is a basic crate for encoding and decoding numbers in either big-endian or little-endian order.
+  
+  I trust the authors. I didn't review the source code.
+  Published to crates.io by:: BurntSushi
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+03G1MJmXYQyQrU11YFkSphewKDvCw-WncIEM5v8jcNdhcDFPyPaqQrzFBmFbC7wJydkcBb83cpy0-l5SlTDxBw
+----- END CREV PROOF -----
+
