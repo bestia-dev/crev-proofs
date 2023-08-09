@@ -5942,3 +5942,32 @@ comment: |-
 EK5awuVfWg7dN6kH8qMTfomxB6OdMyxdG0-CJlnirwKb8Q9omnU_SbYndRrK2g6p4znRHys1k6KVy8mwAUFaCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T17:03:23.668333500+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: ryu
+  version: 1.0.2
+  revision: c72bd767fc86c07ee07e9db951c01bb7cd583ce8
+  digest: e5UxyaN8lrpB92Z4ptKyDgpVZ6z0bqVFoMNb8p-8BeM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  convert floating point numbers to decimal strings
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+rtJuCMgsHZ6X6_92mnm48EnFFGOyi25aAFNKeOnvabZ6NHoE90rVS14m-caT4pvfuBhIlx-khQPG2QEqcfdSCg
+----- END CREV PROOF -----
+
