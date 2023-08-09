@@ -1000,3 +1000,35 @@ comment: |-
 6vMMNbOBy1f3OEOynd9TkGM8amYn1GMa-67JApKhX3iw5njF3PTxbqRVUNFvzhsVshhhbVGue441j9mRdlNIDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:44:09.782713+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: rust_wasm_websys_utils
+  version: 0.4.3
+  revision: 1334c344d592e82960acb47c86f2125e1716e5d9
+  digest: efVrUZ0Z2crJfPmnxoxp1WLoBjTfOHTjNgsIsW2Lzw4
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  It works in wasm, that is a safe sand-boxed environment.
+  These are small functions, that help coding in wasm.
+  I trust it.
+  
+  malicious potential: 0%
+  dependencies: 9
+  NONE: unsafe, FFI, asm!, file read/write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+  used in all my wasm projects
+----- SIGN CREV PROOF -----
+kzeThMIKQUHFPqz9w-lJCK_b8zk2jmykXsK12N9N_v_XlfN_-6kRMGk8l7xn2QOaHXUuS_sujLEarr0L70_fCg
+----- END CREV PROOF -----
+
