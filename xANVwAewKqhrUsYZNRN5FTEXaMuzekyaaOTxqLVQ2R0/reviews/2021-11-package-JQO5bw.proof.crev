@@ -3188,3 +3188,31 @@ comment: |-
 fBwQSEVTeyi6FS_4nCwz28vnvaCQl9Fb8jHdtdGU8IUMhc3WeeHghFtBXT2itonidOmA0srJg-PpxFZjzhJxBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T16:21:47.970035400+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: js-sys
+  version: 0.3.17
+  digest: gZHOtn6OayZkeWz0_VuOo5w5ShIX2mTdRFxlBXdrLNU
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  js-sys is the basic crate for rust + wasm.
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+MgyMt2hqayzes2Hn6QD3UqYO7wwdGBJ8RaemFhB8JhwMd53jYj5vR5mTxbu1Xo6j8BK53tuBHf9TJPefuNUkDw
+----- END CREV PROOF -----
+
