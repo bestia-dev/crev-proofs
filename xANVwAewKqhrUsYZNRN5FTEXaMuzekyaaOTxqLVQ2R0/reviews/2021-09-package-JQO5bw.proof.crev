@@ -664,3 +664,33 @@ comment: |-
 NqLWi98PISxTFzIs71v29-UmqxLhfvywAB-UaK8-ik5mXN-hm91osalCyR5oQzjb0szuOgB0H4LJeLVHZWBcDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:13:42.971316600+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: ignore
+  version: 0.4.18
+  revision: 14860b0f16ce9cab3c8bb9205a8268b5be22dc30
+  digest: MbIEVfjzY4ZR66KQgY0a1mJWlWUUZFOoT4PHkFS_JjE
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  ignore is a crate for .gitignore
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by:: BurntSushi
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+oHPoJ_gcv_-nH0Y2I1Lh87Nzk6o7cigeF78g41i_jspGnejs-hVBkjFxZ-Urz-OMO09yZcHgL6BmorUkVm3UCQ
+----- END CREV PROOF -----
+
