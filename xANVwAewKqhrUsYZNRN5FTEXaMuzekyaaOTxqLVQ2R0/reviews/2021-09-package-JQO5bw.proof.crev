@@ -877,3 +877,34 @@ comment: |-
 gvvLqAYjLmExKlA5uQflj7FUhAqZdgq77UFMzcG_K5fJseyDcP3RimtN16adIpl0pgRiYw8IA6aDQopecqBeAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:26:37.545132200+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: dev_bestia_cargo_completion
+  version: 2021.819.909
+  revision: f958436e61bfa802d41c7a3890d876112c69eaf7
+  digest: cChuA3yPFNxYpEJb2i8XzRxdvmSY1iiUAZmTLhyh2OA
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  This is a simple binary crate for enabling bash auto-completion for the cargo and cargo auto commands. It just receives arguments and env. variables from the bash completion process. It returns text on the stdout. It calls the automation_scripts_rs for the cargo auto command. It also just return text on stdout.
+  I trust it.
+  
+  malicious potential: 0%   
+  process::command: automation_scripts_rs
+  dependencies: 2 
+  NONE: unsafe, FFI, asm!, file read/write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+----- SIGN CREV PROOF -----
+4hywa6HMnU9m5LSoRTgKPGprVeN6MqbY0ypCTnO9tdmFB8U-jgoCfV40Er0oiKUAOLyBML_3a5FwiuJwqvd1AA
+----- END CREV PROOF -----
+
