@@ -3366,3 +3366,33 @@ comment: |-
 HoNmAaXCU-Zxsz28nZ3QKHaJfVbWyls7ET6qUt-Xuivmu9V7PgUAr33DH16jngbtJ_-q6gHgyg8EXN5yiEyvDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T16:26:17.387275800+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: libc
+  version: 0.2.98
+  revision: ba3416113ebef391f30748d09db210252cdef93c
+  digest: skPeghyH7wIJSRasa3DkQyTzlBS8Tc2fnnyP2N4gc_c
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  libc is the absolute basic core crate for the rust language.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: JohnTitor (Libc crate team)
+----- SIGN CREV PROOF -----
+MsQOBPm-9qwZicG9EYkYWmwN1R-ElbqIQM0QkYtiKghBLKE1t1Z-_apaMzj4CFueMQOsRn67qRz1mnzrbKDBCA
+----- END CREV PROOF -----
+
