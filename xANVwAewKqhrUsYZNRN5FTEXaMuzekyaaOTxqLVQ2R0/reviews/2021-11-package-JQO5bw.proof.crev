@@ -821,3 +821,32 @@ comment: |-
 XqmOE3K1AYvxsMK084KIZzpUtSGJpc63ZBpf3S2DoLIhshgT9zKR1Ouz20Joagym0Jde9TQ8UwaGS44lTbxIAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T15:33:26.806674500+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: blake2
+  version: 0.9.2
+  revision: 8305f3b16cd1344229efe40ec323b66f22f5f1da
+  digest: RYopHlZ-d5XpQs8QoAA85cvMChHwWbbmwuRFRL5don0
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  Pure Rust implementation of the BLAKE2 hash function family.
+  
+  I trust the author. I didn't review the source code.
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+YfvnGn-s8fYmokPIm-f4ztQ4t5sc60aBAArWGLpGxeWQwGbziZZDmoq568XU16h7Pk60P2srEEY6wVYblHwZCg
+----- END CREV PROOF -----
+
