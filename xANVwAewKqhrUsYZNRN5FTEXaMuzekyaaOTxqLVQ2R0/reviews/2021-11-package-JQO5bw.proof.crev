@@ -3965,3 +3965,32 @@ comment: |-
 Px3pC_hztxtMWws1c0mT6KDWwEZTc3TDk2hEcv07bAHBGb0xhtTUeyvvrJ4Rtk5-Liml7ciHSQAmeQeWIr4ZAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T16:30:54.550992800+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: memchr
+  version: 2.4.0
+  revision: 0ba6735559ae9c1cb7e6470a97834a95cc06fbbb
+  digest: x2VJh5fg3Yf2jALemA49AItxxUwTDucbwOy7_VhXMDk
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  memchr is a basic crate for string search.
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: BurntSushi
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+6OGt6xJsGxSL6v9bBW7nSMlHFbcDsPMBLEUZawdMR8P6hYUIESKcoFa02oHUaCfKun4EFBx5QCQrLq7tTLceDw
+----- END CREV PROOF -----
+
