@@ -56,3 +56,34 @@ comment: |-
 uTUveNrZcn6Gdn5Zq8JfnXga0kQOZcirvVKxqvJakpkIqSw3LR5z8aifPMdt1QKIQfvlnNqyFffyWK6Xq8wBCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-01-21T09:32:36.729128173+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: reader_for_microxml
+  version: 2.0.1
+  revision: 4040d32285b0b7d439e15c22b15de8c639712522
+  digest: AFBPBVn01o5j2Pxn5xoURcYM4__QAP_GxwBrJJFYumw
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  reader_for_microxml reads a subset of xml called microXml.  
+  Very useful for processing simple html templates.
+  
+  malicious potential: 0%    
+  line of code:308 dependencies:0  
+  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+  used in projects: cargo_crev_review, cargo_crev_web, mem6_game  
+----- SIGN CREV PROOF -----
+VkBi3zy8qBYsDrZOQf478mRiAFbBW_AG03lCzgYn-HBODmrko6cbmu70bnXsUeFVxAyb0mk_B8oixnrOBreHBw
+----- END CREV PROOF -----
+
