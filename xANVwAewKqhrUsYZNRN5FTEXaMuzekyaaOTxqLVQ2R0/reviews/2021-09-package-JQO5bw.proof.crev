@@ -1093,3 +1093,34 @@ comment: |-
 5pukbwLmiWwwiQs29JFRQIHAF_2wc45utscdw4jqSP2vgzYp1VobE0SO9GF3qVLh1nrS7j2sQvbS2pjajHbAAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:06:09.413678300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: serde_derive
+  version: 1.0.130
+  revision: 65e1a50749938612cfbdb69b57fc4cf249f87149
+  digest: tix6ip4VI_hUH3y0HVVBYPEKg5gHAK-7TOHWQ3Lf-9c
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  framework for serializing and deserializing
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Zur2hWuE5gGWCsYc4ldtNY4pfKjPEOPwrQZubahayc0gTm4wvN8Oj4wkNdveNMx2-2AJz2z6hkIzUYUcGKIvBg
+----- END CREV PROOF -----
+
