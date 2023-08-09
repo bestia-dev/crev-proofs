@@ -2135,3 +2135,32 @@ comment: |-
 RRWscUfG4f4AYXiv1HYWmhK_o3oHUsPagBZd6CsebqrpS7arHGp3xW-zHLSyoHhzCo-2Sslg-9NG7mR2emPuBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T16:04:29.946023200+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: crev-lib
+  version: 0.17.0
+  revision: 91f3e86945c7011a3e3335c1e1e182790e373b1e
+  digest: Xa922btrUjzKPRt9FSAa1FRFqAiXfww8XzaSkO1UmKY
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  crev-lib is the basic crate for cargo-crev.
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dpc
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+R4A-NWhu2Yvn0c6c5r5mKy_4vRhmKYRDad-NfkZzA5F-hUizuIqxBBejHF2x4zQ41YSrNmoEpbvi4bivMkabDg
+----- END CREV PROOF -----
+
