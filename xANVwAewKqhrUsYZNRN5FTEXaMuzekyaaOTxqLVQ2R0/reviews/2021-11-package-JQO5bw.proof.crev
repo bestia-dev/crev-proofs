@@ -6238,3 +6238,33 @@ comment: |-
 bFb1vVYRgolm-AzuGG0ShHk0RhjAovINmNtj-yzAbdkum1TjOIrP2sBbFDZQ3QqFgEhzFHbrFXkDlS1eV0cDCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T20:36:12.229946+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: signature
+  version: 1.4.0
+  revision: a1588bcde5dc04a0e221b46e8f4f55e74dfa7656
+  digest: CiZ27vfnvyTttdqC5O9AMk-uVk3nF_Vgs4-ZI_1hzu4
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  Traits for cryptographic signature algorithms (e.g. ECDSA, Ed25519) 
+  
+  I trust the author. I didn't review the source code.
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+    
+----- SIGN CREV PROOF -----
+HIe9Azdd2ZPN7pEAqWqfgezG_P35Ov_rdI_qPZMEbAmHKC36omQxBazAmL2OFmAqA-Q_0gApMtRrIe3hih8gAQ
+----- END CREV PROOF -----
+
