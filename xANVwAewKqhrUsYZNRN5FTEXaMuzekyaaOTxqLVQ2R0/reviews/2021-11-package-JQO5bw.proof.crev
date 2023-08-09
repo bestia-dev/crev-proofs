@@ -418,3 +418,33 @@ comment: |-
 x6kUagZI3tZftDq6N4GkkkmLKA078KolTN7U8tpwO5ukEvEuPiUsOcEeKMenk4N4L2jrvbmYrKa4GNxw97wjBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-11-29T15:03:57.827354100+01:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: aho-corasick
+  version: 0.7.14
+  revision: 63f0b5252345fa50e490de42b3d82b5159c0e5dd
+  digest: n__Tq8EF-NOclrUCh6yBDox2xuiUw7B8BXKHaN2vgxk
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  aho-corasick is a basic crate to find patterns
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: BurntSushi
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+L6pkpsC0s0aE12A2IAsNZnkBCTjNmz_H-gLrKFkaUTAQ0pFB3QrkKbCLUxTIq4ZCVXsC0LsM7jzoOl-BY6Q9AQ
+----- END CREV PROOF -----
+
