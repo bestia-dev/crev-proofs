@@ -574,3 +574,33 @@ comment: |-
 OEZf8ff9glvu0RnGXLM4b7w3sV7OeEzfa2O6lSW6Ddeo_n0peGQk0nyvW9K2SOzl-CQzaqziBP-kZAsPaGXvDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:04:13.601421400+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: yaml-rust
+  version: 0.4.5
+  revision: 6cd3ce4abe6894443645c48bdc375808ec911493
+  digest: wtPKVe3X9OGe6dJZwZGi0zZlL3h-xtPhW2hZrHCj9Zo
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  yaml-rust is a basic crate
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+kdmVYTTG-cbLzLEQE1pf4y4TUg01xYTSSaha_vQD9UPTmGGJgEokEIGm5rQ1_P92wO2mrNdPb1p99HCDzinnBw
+----- END CREV PROOF -----
+
