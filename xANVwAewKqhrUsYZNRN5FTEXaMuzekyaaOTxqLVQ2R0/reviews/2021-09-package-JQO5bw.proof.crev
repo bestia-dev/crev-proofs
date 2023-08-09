@@ -814,3 +814,33 @@ comment: |-
 POsKWhUsL69WkUMAbN6FxuKTfddpMueKvVGYB1ckjzgtcLVpXoP-ZXCbjgo-rkGCTCn-wuoljQBcNF5zKDMeAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:23:58.351343300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo
+  version: 0.56.0
+  revision: 32da73ab19417aa89686e1d85c1440b72fdf877d
+  digest: eEtcdfTiW9ZY-fg9vgyoNOYjHIrTAh8-ak7ASpKiynY
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  cargo - package manager for Rust
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: Mark-Simulacrum
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+1M2oIPTgU81X1PWpCvDTWDQZXoxeJOA8dzlBGrq0jdVc9IaJAQTmlnwefJTRWfJLaOLlfKw_Yh0DIu_mTCo5DQ
+----- END CREV PROOF -----
+
