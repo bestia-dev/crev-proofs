@@ -1,0 +1,1329 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:18:58.987805600+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wsl_open_browser
+  version: 2021.823.702
+  revision: f72d86b8f7d49c19ff76fa4e9483fc1fe85097e4
+  digest: Q-zHFkiqtRM5vx1SpV6l72OaEUi7SUJuF_VEXMdSCxI
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  
+  I am the author of this crate.  
+  
+  wsl_open_browser just opens the browser from inside WSL2.  
+  
+  The trick is, that it transforms file path from Linux to Windows notation.  
+  
+  Very useful for `cargo doc --open`.
+  
+  
+  
+  malicious potential: 0%    
+  
+  process::command:1  
+  
+  line of code:45 dependencies:1  
+  
+  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, macro_rules, proc_macro
+  
+  used in projects: use in `bash` and for `cargo doc --open`  
+----- SIGN CREV PROOF -----
+biFT1yhFfa_GK8wkirTRevTXFfeo5-0FOIF_q70-paE7PjpXyhd-m0r3z8gjM_vHhKKze15c9GnCKfVajVb9DQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:18:58.987805600+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wsl_open_browser
+  version: 2021.823.702
+  revision: f72d86b8f7d49c19ff76fa4e9483fc1fe85097e4
+  digest: Q-zHFkiqtRM5vx1SpV6l72OaEUi7SUJuF_VEXMdSCxI
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  wsl_open_browser just opens the browser from inside WSL2.  
+  The trick is, that it transforms file path from Linux to Windows notation.  
+  Very useful for `cargo doc --open`.
+  
+  malicious potential: 0%    
+  process::command:1  
+  line of code:45 dependencies:1  
+  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, macro_rules, proc_macro
+  used in projects: use in `bash` and for `cargo doc --open`  
+----- SIGN CREV PROOF -----
+_hZ6r-p3irogGZgxzU1HhMC_DrQr1MVZAnj5KNp-zHa51iMNOWWpXsGWSkhVN4bTGGwULN2E830DR4ZuqgJoDg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:19:22.350397900+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: unwrap
+  version: 1.2.1
+  digest: 6fQ98em_PhKjvLEzy38J-toIU7WaSF2WFDa2ZV0PV9w
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  Adds the trait `VerboseUnwrap` to `Result` and `Option`.  
+  Adds the macro `unwrap!` that writes the filename, line and column of the position in code where the panic happened. Very useful.  
+  Because the original `unwrap()` in wasm returns totally unuseful location inside licore ?!?!: `panicked at... src/libcore/option.rs:378:21`.  
+    
+  malicious potential: 0%  
+  macro_rules:2
+  line of code:158 dependencies:0
+  NONE: unsafe, FFI, asm!, file-read, file-write, no_mangle, network-access, build.rs, proc_macro, process::command,   
+  owners (in crates.io) reputation: `canndrew` (unknown to me)  
+  used in projects: all my projects  
+  alternative crates explored: original unwrap() and expect()
+----- SIGN CREV PROOF -----
+Byuuc8-DeFPG09EhHgOYFBW7w70gMIyf8n90h4sN_gMINMseVbmCXV7F_JuwgkWxhfeHQ5_7tvg0-1ELFCSkCg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:19:45.428804+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo-auto
+  version: 2021.827.848
+  revision: 0914904a54b6bb0da0bbc621a23ca92914b2c16d
+  digest: 7Bc7M4nZMgLl8sbWFBWTlCX_tTX671X3QFo9ZhgdXws
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  `Cargo auto` subcommand manages the automation_tasks_rs sub-project.  
+  It generates, builds and runs automation_tasks_rs.  
+    
+  malicious potential: 0%  
+  process::command:4 (cargo and automation_tasks_rs)  
+  file-read/write: only the `automation_tasks_rs` directory
+  line of code:210 dependencies:6  
+  NONE: unsafe, FFI, asm!, no_mangle, network-access, build.rs, macro_rules, proc_macro   
+  used in projects: every rust project automation  
+  alternative crates explored: cargo-make, cargo-task, cargo-xtask, make, bash scripts,...  
+----- SIGN CREV PROOF -----
+MSBpX7GfoNx6Vbt42e6FhsN8J_K74UWHWahA2TYD8dLSBp23cuM7wtCUkquV8fpE1Du6ZIe0wggmSLvMNecGDg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:33:49.630875100+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen-test
+  version: 0.3.26
+  digest: ZoQq4VZqHWJy10g5Mq3RUyNZ9meYb2pW3MAJ8Gq4u9w
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-test is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+KJjgsPRixjZpKLleK3pS9AA03rA8h7Eh7kHJwIKzGvlO6V_rU54NUgrcdqZwgVsGCRU8-oT6AxV9oOzy7DfpCg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:34:12.530307800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen-test-macro
+  version: 0.3.26
+  digest: TOuhk6w9T5Jv6SAosiuOQ2i_6VgrmmoUd3kLKsDwLuM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-test-macro is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Po24rS3rMlGb5usIStnbRjoNMcKX7dlJgo4wT-dvLb3hmD8rZjkgo_kPJwQ1RrNQ0e9Qh__CmO7TQQJd5bsZBg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:34:22.835336900+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: web-sys
+  version: 0.3.53
+  digest: hACRtSs-iOy1yJga7SjtdZXlq8151hxAoxL-BUK0MTU
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  web-sys is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+bmf2cpzLG72lCiI-j-_yoNg3pe3FE31oa7Umg_RPhJknTHEz7zhLcQnS91rUYZ0LjO9S_9_8mPfSop7NKOThDw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:34:32.010415+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen-shared
+  version: 0.2.76
+  digest: WyTdNSjzD9oR-AbJqSYFsZt5BwmFipetAPJ8P2F8N34
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-shared is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+yKipNRe3MymstJRhVIpL_OTR6zXzcYbBQmEQeq3ohOzwY131Ha4ajWRTnq9X3LwrlbuLAUb97LZEidUJMk4vCQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:34:40.030648200+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen-macro-support
+  version: 0.2.76
+  digest: ehOV0yYKDVAI4ZLih34QTIIJxsOXZobXt9RfTQSkBOI
+review:
+  thoroughness: none
+  understanding: none
+  rating: strong
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-macro-support is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+WsZPIZ4F7_aBZPtc_1Ivrn4Tqe330vJC4n0X2cvETZRxixt_QeGK6YkVhdYFAEjeWnLh149yOWv7qA8tTks-Bw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:34:54.710603100+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen-macro
+  version: 0.2.76
+  digest: nnPllT4FD2oY_8OfZO-BiecnoyyThaGJfA5U_xz-SCw
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-macro is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+gmOebHwLpWJY_unIZFAebV7Y9a61Outko9_JRxNGKkWtIfQeeopfO6jpGXeyLTwnfrufo0ZH-6HHAwDMgCXWDQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:35:03.180706500+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen-backend
+  version: 0.2.76
+  digest: 32-QScp3MHwyCaCUx7R8HvKD8V2Trzg_VAOn8mUNGaA
+review:
+  thoroughness: none
+  understanding: none
+  rating: strong
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-backend is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+FQf_tmrdSwQ6MaHIz0rzl-9Ud3ZA4UzqMvldTQyMKU8ZDSvJIjvkU-35gLtLXLECN2eOjHzGQ9EFrYtVxQZ9BQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:35:11.173269600+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen
+  version: 0.2.76
+  digest: WCahtTotyk_JPJnqGbmMhvhwQHs6fLtnQm0DSS_j2WY
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+N5L8qJx6uTVaRWeXfUvEe7rYM8sZsuh88907DzMNlnakFjz202Pj7T_ouTxHg1kx3CHIZqVPABenrH10Mt4NCg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:35:18.920670800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: wasm-bindgen-futures
+  version: 0.4.26
+  digest: bDHL-ttv1j6LBrSypTAvtQmXO03T73I25o_IWIuWD2o
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  wasm-bindgen-futures is the basic crate for rust + wasm.
+  I trust it just like I trust the Rust standard library or the rust compiler.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+3RXZFZyRu-cfaAwKdHXdzx4dj2n7-UgZ70McE7m8UApDVQT-UH5CmFK5LC7osh0FpgCpFB0INVPsi4StrUBkCQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:43:07.090539700+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: crates-io
+  version: 0.33.0
+  revision: 43b129a20fbf1ede0df411396ccf0c024bf34134
+  digest: YzW8TU9V0mt_ukG8WUbijC2ISjPlorA7r_c_P_bw9_Q
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  crates-io helps interacting with crates.io
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: Mark-Simulacrum
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+1oLiM8-ciqfMlqId0LMZX1gp9rp66VWzKg44mDleLQScZFwHhiY4BrAv9jSKBWHhwWslv669GQ_6Cr3HD44BBw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:46:42.971127400+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: semver
+  version: 1.0.4
+  revision: ea9ea80c023ba3913b9ab0af1d983f137b4110a5
+  digest: VsH3-rk4nwDk9LCohOtBDlhxcXG4kAGKvZ6cfu1-rHc
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  semver - parser for cargo semver
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+axEfDQvdYYhnl1dZonwcZbqlACeFlWsyA-HbiNpSphPLhsSe0TVBv8_wnrwHLEa8xhTtTvCYAt0UotWqXJL3Aw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:49:19.140759400+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: serde_yaml
+  version: 0.8.20
+  revision: 269de16a5c77b21884ca0b79c628459c9c5c8040
+  digest: ZOHy-0mWR4LwDjzbtm-b_sKxCd0p3vfrthBPHX0kIVI
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  serde - serializer framework
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+6ZWz80ElsYQ1IweJ1t9IbG41xX7oOA8SCDTSyWhr8GJFdC0muiczn7jazXsiL0EFiwS4AwgX-oEtZ341Q2QQAA
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T20:50:12.231287800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: thiserror
+  version: 1.0.28
+  revision: b47c75d3f5fc3f9d4101feb1b1ab30dbcd543141
+  digest: AKLGjkaWtB9OR-nUozGj38ybR1fioVQx45KsTKJDOF8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  thiserror is a basic crate for error handling
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+gAWL4gp6diNm-j6OveSUwxb2LquCpU5ggNLCNsVQwUnQMmp87Und-fn3Or3pGw0BoDSMw3U8dayRkTeOkzVCCg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:02:12.081198200+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: regex-automata
+  version: 0.1.10
+  revision: dd59a74be412e349bf6df528a216a13c2cf57262
+  digest: NwWVP1qo0SBNK7mX46y3UKOnRl1os2tAUkOPaxtA4Rg
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  regex-automata is a basic crate
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by:: BurntSushi
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+OEZf8ff9glvu0RnGXLM4b7w3sV7OeEzfa2O6lSW6Ddeo_n0peGQk0nyvW9K2SOzl-CQzaqziBP-kZAsPaGXvDQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:04:13.601421400+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: yaml-rust
+  version: 0.4.5
+  revision: 6cd3ce4abe6894443645c48bdc375808ec911493
+  digest: wtPKVe3X9OGe6dJZwZGi0zZlL3h-xtPhW2hZrHCj9Zo
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  yaml-rust is a basic crate
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+kdmVYTTG-cbLzLEQE1pf4y4TUg01xYTSSaha_vQD9UPTmGGJgEokEIGm5rQ1_P92wO2mrNdPb1p99HCDzinnBw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:10:18.240696400+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: thiserror-impl
+  version: 1.0.28
+  revision: b47c75d3f5fc3f9d4101feb1b1ab30dbcd543141
+  digest: _lm9yrvhXra43k8wi2cV3F2Y2UlU7zIbLV9Zmw839C8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  thiserror-impl is basic crate for error handling
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Bem6VQ4bZEkXmvptoqYisPLMOv0QMsO0GLtXPNDIoLWs4KCKkw8qO70U3joTvOQHbrCTB6Z7qof-mKiQSLLaCQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:12:19.881184+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: tar
+  version: 0.4.37
+  revision: a746675cd2f2b40231cc251c5bf3b3f4d606bc48
+  digest: SPx1GmHiROYK1P0c_8lSoCHzIQ-dGMZcHtMWCcvZ0ss
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  tar is a crate for tar reader/writer
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+NqLWi98PISxTFzIs71v29-UmqxLhfvywAB-UaK8-ik5mXN-hm91osalCyR5oQzjb0szuOgB0H4LJeLVHZWBcDg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:13:42.971316600+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: ignore
+  version: 0.4.18
+  revision: 14860b0f16ce9cab3c8bb9205a8268b5be22dc30
+  digest: MbIEVfjzY4ZR66KQgY0a1mJWlWUUZFOoT4PHkFS_JjE
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  ignore is a crate for .gitignore
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by:: BurntSushi
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+oHPoJ_gcv_-nH0Y2I1Lh87Nzk6o7cigeF78g41i_jspGnejs-hVBkjFxZ-Urz-OMO09yZcHgL6BmorUkVm3UCQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:15:17.640605300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: sha2
+  version: 0.9.5
+  revision: a877e611254c945fa03a1c84d61a34a3a9d3fc87
+  digest: lsH4x6wDTobwmGJxaNiJeU1q1vEBl7E2BPZuYs4jmW8
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  sha2 is a crate for hash family
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+FB56mbfATTLyYgU_BSrcvEcW-Itc3WB3LB_AgZOdMfNKhML1LM25hqDiLNSeRa-dx3XMsm5o0BHDTS6ZxcjWDQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:17:03.341513500+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: serde_json
+  version: 1.0.66
+  revision: 6346bb30037f31ea69b9a4eb029875e23521681c
+  digest: D6mFvIeiTVEmOa_k2p_fFfsqyeFJ2ppXsTSWxuUhjgo
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  serde_json is a crate for serialization
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+hUFSOprIsdlTxi-EtcMj31mGZJ2Vzw_bxlbBfCH6U_-bXuhlK2fzeE3R_-9LCVG1IX77pqtw29P9SOvPPfbdDw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:20:01.961363300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: curl
+  version: 0.4.38
+  revision: 8ccc410aa10852a093a1cef7a74fab1ab9a28ad2
+  digest: NsPLjKq0EtzcuDEZWK-ZCquR-pBI2OK5g9ndj4NjFzM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  curl - libcurl bindings
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+8upZl_k1JEbn42mZOV0QzK5AdZrHzA4UIB_ukm5Wd97K0wIQaReGeCHCDSrU985T6hGxoXlQ-tApk88D6P1lBQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:22:03.420618800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: git2-curl
+  version: 0.14.1
+  revision: d7757f170d098517a24a76a7982da3f897c0255b
+  digest: eJgfSyvtcZ2IHI4zjK2K7x7x1j8dvS1hG-0rTBE5Tcs
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  git2-curl - libgit2
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: joshtriplett
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+POsKWhUsL69WkUMAbN6FxuKTfddpMueKvVGYB1ckjzgtcLVpXoP-ZXCbjgo-rkGCTCn-wuoljQBcNF5zKDMeAw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-15T21:23:58.351343300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo
+  version: 0.56.0
+  revision: 32da73ab19417aa89686e1d85c1440b72fdf877d
+  digest: eEtcdfTiW9ZY-fg9vgyoNOYjHIrTAh8-ak7ASpKiynY
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  cargo - package manager for Rust
+  I trust the authors.
+  I didn't review the source code.
+  
+  Published to crates.io by: Mark-Simulacrum
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+1M2oIPTgU81X1PWpCvDTWDQZXoxeJOA8dzlBGrq0jdVc9IaJAQTmlnwefJTRWfJLaOLlfKw_Yh0DIu_mTCo5DQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:23:29.604242500+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: codetour_export_to_md
+  version: 2020.605.1303
+  revision: 265073636d9ad5f9d6bfab75644ed6479924e8b7
+  digest: 9GTBmCLACfYZ7NmrsaMrnDfH9_nUKnM6USvhteGZlbQ
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  It is a binary for use in development time.
+  It reads all the .tour and some .rs files from the Rust project folder.
+  It creates one .md file per .tour file.
+  I trust it.
+  
+  malicious potential: 0%   
+  read/write: files in the rust project 
+  dependencies:9 
+  NONE: unsafe, FFI, asm!, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+----- SIGN CREV PROOF -----
+gvvLqAYjLmExKlA5uQflj7FUhAqZdgq77UFMzcG_K5fJseyDcP3RimtN16adIpl0pgRiYw8IA6aDQopecqBeAQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:26:37.545132200+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: dev_bestia_cargo_completion
+  version: 2021.819.909
+  revision: f958436e61bfa802d41c7a3890d876112c69eaf7
+  digest: cChuA3yPFNxYpEJb2i8XzRxdvmSY1iiUAZmTLhyh2OA
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  This is a simple binary crate for enabling bash auto-completion for the cargo and cargo auto commands. It just receives arguments and env. variables from the bash completion process. It returns text on the stdout. It calls the automation_scripts_rs for the cargo auto command. It also just return text on stdout.
+  I trust it.
+  
+  malicious potential: 0%   
+  process::command: automation_scripts_rs
+  dependencies: 2 
+  NONE: unsafe, FFI, asm!, file read/write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+----- SIGN CREV PROOF -----
+4hywa6HMnU9m5LSoRTgKPGprVeN6MqbY0ypCTnO9tdmFB8U-jgoCfV40Er0oiKUAOLyBML_3a5FwiuJwqvd1AA
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:35:05.897506500+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: qrcode53bytes
+  version: 1.1.0
+  revision: 2118dcf9a7e628bfc667950e280fd731b911982f
+  digest: i26GzjhUUZCWjcIw7rgX254c5R9MXD_oHnKVurb1atI
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  Works in wasm, so that should be a safe sand-boxed environment.
+  I trust it.
+  
+  malicious potential: 0%
+  dependencies: 2 
+  NONE: unsafe, FFI, asm!, file read/write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+----- SIGN CREV PROOF -----
+lTo-NDZtGuApZx8MfTgtjova5AX3S1wsYw4fxjX5yTKWSNU6X_J4p8GJoBBxApV6WNPOYSVlh0LaamkFmGf9CQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:39:15.558003800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: filetime
+  version: 0.2.15
+  revision: bb4058bf5ef15476ac6c4a49e2bb08f7bf81dc90
+  digest: 5uWrS8KhV86mThkTCYEGJ-xBKuj9XV1hIle_3qt68yU
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  timestamps of files
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+V3cBsxMWcTVFpeeQzDhbTLYAsj0j7nfQ5q8luVPDIluRk6ygRMWpMYzSOweKhHB-IAgYufTXTAXTgYAr7qyFDg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:41:50.751438100+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: rust_wasm_dodrio_router
+  version: 0.5.2
+  revision: 4321dd6f24c19a5f5731464ad9b57eeb80ef7d91
+  digest: nPckWCgNFKNUaUkVqjlaClMoES0mr5vmzY0VqZCpxQY
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  This is just one RouterTrait to use with dodrio vdom in wasm.
+  I trust it.
+  
+  malicious potential: 0%
+  dependencies: 12 Lines of code: 80
+  NONE: unsafe, FFI, asm!, file read/write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+  used in my project: https://github.com/bestia-dev/unforgettable7_game
+----- SIGN CREV PROOF -----
+6vMMNbOBy1f3OEOynd9TkGM8amYn1GMa-67JApKhX3iw5njF3PTxbqRVUNFvzhsVshhhbVGue441j9mRdlNIDw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:44:09.782713+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: rust_wasm_websys_utils
+  version: 0.4.3
+  revision: 1334c344d592e82960acb47c86f2125e1716e5d9
+  digest: efVrUZ0Z2crJfPmnxoxp1WLoBjTfOHTjNgsIsW2Lzw4
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I am the author of this crate.  
+  It works in wasm, that is a safe sand-boxed environment.
+  These are small functions, that help coding in wasm.
+  I trust it.
+  
+  malicious potential: 0%
+  dependencies: 9
+  NONE: unsafe, FFI, asm!, file read/write, no_mangle, network-access, build.rs, macro_rules, proc_macro, process::command
+  used in all my wasm projects
+----- SIGN CREV PROOF -----
+kzeThMIKQUHFPqz9w-lJCK_b8zk2jmykXsK12N9N_v_XlfN_-6kRMGk8l7xn2QOaHXUuS_sujLEarr0L70_fCg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T12:54:50.043453800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: rand_pcg
+  version: 0.2.1
+  revision: c95ad7615e8ac79dc147f04a3f29073131082267
+  digest: _Fl--k_HNVX7w6l_Pfgn8idXmHBfeXzBunfe2yR8-y0
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  rand is de facto the basic crate for random
+  I didn't review the source code. 
+  It has 235 contributors.
+  
+  Published to crates.io by: dhardy
+----- SIGN CREV PROOF -----
+cSmzB8J2o--Veh1LSBm5wZ62xn7C0yDZsBXb0-d47qRe_cWzqm6d9afxkAnVQOIuz6X32qdPjG2JN_Rq6hbSAQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:04:38.252089400+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: serde
+  version: 1.0.130
+  revision: 65e1a50749938612cfbdb69b57fc4cf249f87149
+  digest: ZnEg58KJqoOtb6Y5SjwXfJcDngF6qxhxkjOz7fxA7YA
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  framework for serializing and deserializing
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+5pukbwLmiWwwiQs29JFRQIHAF_2wc45utscdw4jqSP2vgzYp1VobE0SO9GF3qVLh1nrS7j2sQvbS2pjajHbAAA
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:06:09.413678300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: serde_derive
+  version: 1.0.130
+  revision: 65e1a50749938612cfbdb69b57fc4cf249f87149
+  digest: tix6ip4VI_hUH3y0HVVBYPEKg5gHAK-7TOHWQ3Lf-9c
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  framework for serializing and deserializing
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+Zur2hWuE5gGWCsYc4ldtNY4pfKjPEOPwrQZubahayc0gTm4wvN8Oj4wkNdveNMx2-2AJz2z6hkIzUYUcGKIvBg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:10:09.319711300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: scoped-tls
+  version: 1.0.0
+  revision: 52df1890cab1f8ff07c17ddf7bd4a18c706c5f41
+  digest: kETqqoXcUdw7ZgJGOf8bDapX_PwhQg-GirxU0byVSlM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  scoped_thread_local! macro
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+MR_penVfrHhTiblKxzZ7riJMppJoEL0eNPpDnyrBximhHV2T_S4mGwV1iTZ56zjgD_O16fUwLBE5LAvuiQBJCw
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:12:30.687828600+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: clap
+  version: 2.33.3
+  revision: 33bebeda52b52c6f643b4ed6fa880671ba0ab80a
+  digest: x_J6XgPF2up-HC86O_I8OS2ewJbQjn_ki1FsFKXj0Fg
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  library for parsing command line arguments and subcommands
+  I trust the 323 contributors. I didn't review the source code.
+----- SIGN CREV PROOF -----
+CI5TWnimM2I2iCP_LhNIsUHDy16YmULLknQjehxr6U8B7p3tg-EYbGR-qhDRWDrVwlM5Py10rez_cVOGpTI9BQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:14:16.620132700+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: unicode-width
+  version: 0.1.8
+  revision: d0aa541144151c09268878dd781f06011498389a
+  digest: mIsmTMQ39Qb4PNIB1xLEHkf6nUm0F7Ze3MwNI9uxh8I
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  Determine displayed width of char and str types 
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: Manishearth
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+X6NmilKfpL4mdZ2qRzPI9MWhgQyIeeQM4VTTpx7yc-via8Az01vAaELl7AVwXPynYQwwqzKBLL1NkB6-yXYBDA
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:15:41.989488300+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: unicode-xid
+  version: 0.2.2
+  revision: aa989880611f325b2eacc8c6da21e5826c11565c
+  digest: he1Lw_j_qQC3rz02jwx3WGUPst0vC_d78yFfkaqMIWU
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  BASIC LIBRARY
+  
+  Determine if a char is a valid identifier for a parser
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: Manishearth
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+HSTUZx_0O6ihTMugTitvxFNt-TUz5-Qvr_ylhyJteo-1EfXTv6guERnm_hxXRgqcD1keHBkTDmaEMyeoOd6lDA
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:23:29.638421900+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: toml
+  version: 0.5.8
+  revision: 94b319f5eeb80dbc7420246416a69d5bd0a9557d
+  digest: nGgADnuEoHCOHo_59iekmclE_UsIDQstPZgK9cohCgo
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  TOML decoder and encoder for Rust
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: alexcrichton
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+GHY2KIc0jpvBtByfsOTi8bqoeLolasgtywx-lHSCLgSbpC3Ju13Nio3g6W0YhvLblCKyvkG6jNwcIBctqgaOAg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T13:27:06.059660800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: syn
+  version: 0.15.44
+  revision: 6d798b63c255e90b7b1dbbfb3707fdce1704a18d
+  digest: WofgKU3hraaolxwNW-nXokUvMP93ZkBZf8GoCWHNo4o
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  Parser for Rust source code
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: dtolney
+  Super high reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+7m6_vz6MpUssWjI1HB4q7dE2Hl5Y5cFNikcEKQbIPsqHHuHnYFFWoBdzvx5HYgaBEzCCCOEJcIpIIcY19fDhDg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2021-09-16T15:30:56.577603800+02:00
+from:
+  id-type: crev
+  id: xANVwAewKqhrUsYZNRN5FTEXaMuzekyaaOTxqLVQ2R0
+  url: https://github.com/bestia-dev/crev-proofs
+package:
+  source: https://crates.io
+  name: zeroize
+  version: 1.3.0
+  revision: e46180104158c81a35c0232b44f30e1bd8f071a4
+  digest: _SGqqcBQz-a4RIxm7MyjD-fgVwaNE5RMoM4JQT46Ln0
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |-
+  Securely zero memory while avoiding compiler optimizations
+  I trust the authors. I didn't review the source code.
+  
+  Published to crates.io by: tarcieri
+  High reputation and visibility in the rust community.
+  https://web.crev.dev/rust-reviews/people_of_rust/
+----- SIGN CREV PROOF -----
+01LQb76jnNR_VuZMO5mrfG6gBl3lGaAzyJNMF4BBUe79lCexrmnw5ytfRWymvTAMPQWgBoevJ4FJzXG2zfRZCw
+----- END CREV PROOF -----
+
